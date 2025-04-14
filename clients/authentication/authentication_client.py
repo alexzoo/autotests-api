@@ -61,6 +61,14 @@ class AuthenticationClient(APIClient):
         return self.post("/api/v1/authentication/refresh", json=request)
 
     def login(self, request: LoginRequestDict) -> LoginResponseDict:
+        """
+        Performs user authentication and returns the parsed JSON response.
+
+        This is a convenience method that calls login_api and automatically converts
+        the response to a LoginResponseDict.
+
+        :return: The parsed JSON response containing authentication tokens.
+        """
         response = self.login_api(request)
         return response.json()
 
