@@ -5,7 +5,7 @@ from httpx import Response
 from clients.api_client import APIClient
 
 
-class UserCreateRequestDict(TypedDict):
+class CreateUserRequestDict(TypedDict):
     """
     Description of the user creation request structure.
     """
@@ -20,7 +20,7 @@ class PublicUsersClient(APIClient):
     """
     Client for working with /api/v1/users
     """
-    def create_user_api(self, request: UserCreateRequestDict) -> Response:
+    def create_user_api(self, request: CreateUserRequestDict) -> Response:
         """
         This method sends a request to create a new user.
 
