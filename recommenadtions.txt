@@ -1,0 +1,3 @@
+рекомендую делать названия аннотаций типов в формате
+{Action}{Entity/Context}{Requests/Response}{Type},
+то есть CreateUserRequestDict, UpdateFileResponseDict
