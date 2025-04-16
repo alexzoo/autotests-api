@@ -1,40 +1,8 @@
-from typing import TypedDict
-
 from httpx import Response
 
 from clients.api_client import APIClient
 from clients.public_http_builder import get_public_http_client
-
-
-class Token(TypedDict):
-    """
-    Description of the authentication tokens structure.
-    """
-    tokenType: str
-    accessToken: str
-    refreshToken: str
-
-
-class LoginRequestDict(TypedDict):
-    """
-    Description of the authentication request structure.
-    """
-    email: str
-    password: str
-
-
-class LoginResponseDict(TypedDict):
-    """
-    Description of the authentication response structure.
-    """
-    token: Token
-
-
-class RefreshRequestDict(TypedDict):
-    """
-    Description of the request structure for token refresh.
-    """
-    refreshToken: str
+from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema
 
 
 class AuthenticationClient(APIClient):
@@ -42,35 +10,42 @@ class AuthenticationClient(APIClient):
     Client for working with /api/v1/authentication
     """
 
-    def login_api(self, request: LoginRequestDict) -> Response:
+    def login_api(self, request: LoginRequestSchema) -> Response:
         """
         This method performs user authentication.
 
-        :param request: A dictionary with email and password.
+        :param request: A LoginRequestSchema object containing email and password.
         :return: The server response as an httpx.Response object.
         """
-        return self.post("/api/v1/authentication/login", json=request)
+        return self.post(
+            "/api/v1/authentication/login",
+            json=request.model_dump(by_alias=True)
+        )
 
-    def refresh_api(self, request: RefreshRequestDict) -> Response:
+    def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         This method refreshes the authorization token.
 
-        :param request: A dictionary with refreshToken.
+        :param request: A RefreshRequestSchema object containing refreshToken.
         :return: The server response as an httpx.Response object.
         """
-        return self.post("/api/v1/authentication/refresh", json=request)
+        return self.post(
+            "/api/v1/authentication/refresh",
+            json=request.model_dump(by_alias=True)
+        )
 
-    def login(self, request: LoginRequestDict) -> LoginResponseDict:
+    def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         """
         Performs user authentication and returns the parsed JSON response.
 
         This is a convenience method that calls login_api and automatically converts
-        the response to a LoginResponseDict.
+        the response to a LoginResponseSchema.
 
-        :return: The parsed JSON response containing authentication tokens.
+        :param request: A LoginRequestSchema object containing email and password.
+        :return: The parsed response containing authentication tokens.
         """
         response = self.login_api(request)
-        return response.json()
+        return LoginResponseSchema.model_validate_json(response.text)
 
 
 def get_authentication_client() -> AuthenticationClient:

@@ -1,35 +1,8 @@
-from typing import TypedDict
-
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
-
-
-class File(TypedDict):
-    """
-    Description of the file structure.
-    """
-    id: str
-    url: str
-    filename: str
-    directory: str
-
-
-class CreateFileRequestDict(TypedDict):
-    """
-    Description of the request structure for creating a file.
-    """
-    filename: str
-    directory: str
-    upload_file: str
-
-
-class CreateFileResponseDict(TypedDict):
-    """
-    Description of the response structure for creating a file.
-    """
-    file: File
+from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
+from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
 class FilesClient(APIClient):
@@ -46,17 +19,18 @@ class FilesClient(APIClient):
         """
         return self.get(f"/api/v1/files/{file_id}")
 
-    def create_file_api(self, request: CreateFileRequestDict) -> Response:
+    def create_file_api(self, request: CreateFileRequestSchema) -> Response:
         """
         Method to create a new file.
 
-        :param request: Dictionary with file data including filename, directory and path to the file to upload.
+        :param request: CreateFileRequestSchema with file data including filename, directory and
+        path to the file to upload.
         :return: The server response as an httpx.Response object.
         """
         return self.post(
             "/api/v1/files",
-            data=request,
-            files={"upload_file": open(request['upload_file'], 'rb')}
+            data=request.model_dump(by_alias=True, exclude={'upload_file'}),
+            files={"upload_file": open(request.upload_file, 'rb')}
         )
 
     def delete_file_api(self, file_id: str) -> Response:
@@ -68,18 +42,19 @@ class FilesClient(APIClient):
         """
         return self.delete(f"/api/v1/files/{file_id}")
 
-    def create_file(self, request: CreateFileRequestDict) -> CreateFileResponseDict:
+    def create_file(self, request: CreateFileRequestSchema) -> CreateFileResponseSchema:
         """
         Method to create a new file and return the response data.
 
-        :param request: Dictionary with file data including filename, directory and path to the file to upload.
-        :return: The file creation response data as a dictionary.
+        :param request: CreateFileRequestSchema with file data including filename, directory and
+        path to the file to upload.
+        :return: CreateFileResponseSchema with data of the created file.
         """
         response = self.create_file_api(request)
-        return response.json()
+        return CreateFileResponseSchema.model_validate_json(response.text)
 
 
-def get_files_client(user: AuthenticationUserDict) -> FilesClient:
+def get_files_client(user: AuthenticationUserSchema) -> FilesClient:
     """
     Function creates an instance of FilesClient with a pre-configured HTTP client.
 
