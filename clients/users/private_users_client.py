@@ -1,37 +1,8 @@
-from typing import TypedDict
-
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
-
-
-class User(TypedDict):
-    """
-    User structure description.
-    """
-    id: str
-    email: str
-    lastName: str
-    firstName: str
-    middleName: str
-
-
-class GetUserResponseDict(TypedDict):
-    """
-    Description of the structure of the response for getting a user.
-    """
-    user: User
-
-
-class UpdateUserRequestDict(TypedDict):
-    """
-    Description of the structure of the request to update a user.
-    """
-    email: str | None
-    lastName: str | None
-    firstName: str | None
-    middleName: str | None
+from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
+from clients.users.users_schema import GetUserResponseSchema, UpdateUserRequestSchema
 
 
 class PrivateUsersClient(APIClient):
@@ -56,15 +27,15 @@ class PrivateUsersClient(APIClient):
         """
         return self.get(f"/api/v1/users/{user_id}")
 
-    def update_user_api(self, user_id: str, request: UpdateUserRequestDict) -> Response:
+    def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Method to update a user by their identifier.
 
         :param user_id: The identifier of the user.
-        :param request: Dictionary with user data to update.
+        :param request: UpdateUserRequestSchema with user data to update.
         :return: The server response as an httpx.Response object.
         """
-        return self.patch(f"/api/v1/users/{user_id}", json=request)
+        return self.patch(f"/api/v1/users/{user_id}", json=request.model_dump(by_alias=True))
 
     def delete_user_api(self, user_id: str) -> Response:
         """
@@ -75,18 +46,18 @@ class PrivateUsersClient(APIClient):
         """
         return self.delete(f"/api/v1/users/{user_id}")
 
-    def get_user(self, user_id: str) -> GetUserResponseDict:
+    def get_user(self, user_id: str) -> GetUserResponseSchema:
         """
         Method to retrieve a user by their identifier.
 
         :param user_id: The identifier of the user.
-        :return: GetUserResponseDict containing the user information.
+        :return: GetUserResponseSchema containing the user information.
         """
         response = self.get_user_api(user_id)
-        return response.json()
+        return GetUserResponseSchema.model_validate_json(response.text)
 
 
-def get_private_users_client(user: AuthenticationUserDict) -> PrivateUsersClient:
+def get_private_users_client(user: AuthenticationUserSchema) -> PrivateUsersClient:
     """
     Function that creates an instance of PrivateUsersClient with a preconfigured HTTP client.
 
