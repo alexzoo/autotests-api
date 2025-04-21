@@ -21,12 +21,14 @@ def test_login():
     public_user_client.create_user(create_user_request)
 
     login_request = LoginRequestSchema(
-        email=create_user_request.email, password=create_user_request.password)
+        email=create_user_request.email, password=create_user_request.password
+    )
     login_response = authentication_client.login_api(login_request)
     login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
 
     assert_status_code(login_response.status_code, HTTPStatus.OK)
     assert_login_response(login_response_data)
 
-    validate_json_schema(instance=login_response.json(),
-                         schema=login_response_data.model_json_schema())
+    validate_json_schema(
+        instance=login_response.json(), schema=login_response_data.model_json_schema()
+    )
