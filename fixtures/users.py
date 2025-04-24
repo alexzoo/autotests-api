@@ -1,10 +1,6 @@
 import pytest
 from pydantic import BaseModel, EmailStr
 
-from clients.authentication.authentication_client import (
-    AuthenticationClient,
-    get_authentication_client,
-)
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import PrivateUsersClient, get_private_users_client
 from clients.users.public_users_client import PublicUsersClient, get_public_users_client
@@ -26,16 +22,6 @@ class UserFixture(BaseModel):
     @property
     def authentication_user(self) -> AuthenticationUserSchema:
         return AuthenticationUserSchema(email=self.email, password=self.password)
-
-
-@pytest.fixture
-def authentication_client() -> AuthenticationClient:
-    """
-    Provides an instance of the authentication client.
-    Creates and returns a new authentication client for API tests.
-    :return: An instance of AuthenticationClient
-    """
-    return get_authentication_client()
 
 
 @pytest.fixture
