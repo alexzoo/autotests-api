@@ -29,6 +29,8 @@ def function_file(files_client: FilesClient) -> FileFixture:
     :param files_client: Client for file operations, authenticated as the function user.
     :return: A FilesFixture containing the request and response data for the created file.
     """
-    request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
+    request = CreateFileRequestSchema(
+        upload_file="/Users/zubescu/my_projects/autotests-api/testdata/files/image.png"
+    )
     response = files_client.create_file(request=request)
     return FileFixture(request=request, response=response)
