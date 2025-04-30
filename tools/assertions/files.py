@@ -69,13 +69,13 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     :raises AssertionError: If the actual response does not match the expected one.
     """
     expected = ValidationErrorResponseSchema(
-        detail=[
+        details=[
             ValidationErrorSchema(
                 type="string_too_short",
                 input="",
-                ctx={"min_length": 1},
-                msg="String should have at least 1 character",
-                loc=["body", "filename"],
+                context={"min_length": 1},
+                message="String should have at least 1 character",
+                location=["body", "filename"],
             )
         ]
     )
@@ -90,13 +90,13 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     :raises AssertionError: If the actual response does not match the expected one.
     """
     expected = ValidationErrorResponseSchema(
-        detail=[
+        details=[
             ValidationErrorSchema(
                 type="string_too_short",
                 input="",
-                ctx={"min_length": 1},
-                msg="String should have at least 1 character",
-                loc=["body", "directory"],
+                context={"min_length": 1},
+                message="String should have at least 1 character",
+                location=["body", "directory"],
             )
         ]
     )
@@ -122,15 +122,15 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
     :raises AssertionError: If the actual response does not match the expected one.
     """
     expected = ValidationErrorResponseSchema(
-        detail=[
+        details=[
             ValidationErrorSchema(
                 type="uuid_parsing",
                 input="incorrect-file-id",
-                ctx={
+                context={
                     "error": "invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"
                 },
-                msg="Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
-                loc=["path", "file_id"],
+                message="Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+                location=["path", "file_id"],
             )
         ]
     )
