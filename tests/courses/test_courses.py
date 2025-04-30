@@ -33,8 +33,8 @@ class TestCourses:
         function_user: UserFixture,
     ):
         request = CreateCourseRequestSchema(
-            previewFileId=function_file.response.file.id,
-            createdByUserId=function_user.response.user.id,
+            preview_file_id=function_file.response.file.id,
+            created_by_user_id=function_user.response.user.id,
         )
         response = course_client.create_course_api(request)
         response_data = CreateCourseResponseSchema.model_validate_json(response.text)
@@ -49,7 +49,7 @@ class TestCourses:
         function_user: UserFixture,
         function_course: CourseFixture,
     ):
-        query = GetCoursesQuerySchema(userId=function_user.response.user.id)
+        query = GetCoursesQuerySchema(user_id=function_user.response.user.id)
         response = course_client.get_courses_api(query)
         response_data = GetCoursesResponseSchema.model_validate_json(response.text)
 

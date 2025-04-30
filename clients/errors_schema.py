@@ -12,9 +12,9 @@ class ValidationErrorSchema(BaseModel):
 
     type: str
     input: Any
-    context: dict[str, Any] = Field(alias="ctx")
-    message: str = Field(alias="msg")
-    location: list[str] = Field(alias="loc")
+    context: dict[str, Any] = Field(alias=str("ctx"))
+    message: str = Field(alias=str("msg"))
+    location: list[str] = Field(alias=str("loc"))
 
 
 class ValidationErrorResponseSchema(BaseModel):
@@ -24,7 +24,7 @@ class ValidationErrorResponseSchema(BaseModel):
 
     model_config = ConfigDict(populate_by_name=True)
 
-    details: list[ValidationErrorSchema] = Field(alias="detail")
+    details: list[ValidationErrorSchema] = Field(alias=str("detail"))
 
 
 class InternalErrorResponseSchema(BaseModel):
@@ -34,4 +34,4 @@ class InternalErrorResponseSchema(BaseModel):
 
     model_config = ConfigDict(populate_by_name=True)
 
-    details: str = Field(alias="detail")
+    details: str = Field(alias=str("detail"))
