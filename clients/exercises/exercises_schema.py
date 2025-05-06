@@ -3,7 +3,7 @@ from pydantic import BaseModel, ConfigDict, Field
 from tools.fakers import fake
 
 
-class Exercise(BaseModel):
+class ExerciseSchema(BaseModel):
     """
     Structure of an exercise entity.
     """
@@ -18,6 +18,10 @@ class Exercise(BaseModel):
     order_index: int = Field(alias=str("orderIndex"))
     description: str
     estimated_time: str = Field(alias=str("estimatedTime"))
+
+
+class ExercisesSchema(BaseModel):
+    pass
 
 
 class GetExercisesQuerySchema(BaseModel):
@@ -35,7 +39,7 @@ class GetExercisesResponseSchema(BaseModel):
     Structure of the response when retrieving a list of exercises.
     """
 
-    exercises: list[Exercise]
+    exercises: list[ExerciseSchema]
 
 
 class GetExerciseResponseSchema(BaseModel):
@@ -43,7 +47,7 @@ class GetExerciseResponseSchema(BaseModel):
     Structure of the response when retrieving a single exercise.
     """
 
-    exercise: Exercise
+    exercise: ExerciseSchema
 
 
 class CreateExerciseRequestSchema(BaseModel):
@@ -67,7 +71,7 @@ class CreateExerciseResponseSchema(BaseModel):
     Structure of the response when creating an exercise.
     """
 
-    exercise: Exercise
+    exercise: ExerciseSchema
 
 
 class UpdateExerciseRequestSchema(BaseModel):
@@ -92,4 +96,4 @@ class UpdateExerciseResponseSchema(BaseModel):
     Structure of the response when updating an exercise.
     """
 
-    exercise: Exercise
+    exercise: ExerciseSchema
