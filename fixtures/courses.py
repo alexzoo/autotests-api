@@ -36,8 +36,8 @@ def function_course(
     :return: A CourseFixture containing request and response data.
     """
     request = CreateCourseRequestSchema(
-        previewFileId=function_file.response.file.id,
-        createdByUserId=function_user.response.user.id,
+        preview_file_id=function_file.response.file.id,
+        created_by_user_id=function_user.response.user.id,
     )
     response = course_client.create_course(request=request)
     return CourseFixture(request=request, response=response)
