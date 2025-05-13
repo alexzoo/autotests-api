@@ -8,7 +8,7 @@ from clients.exercises.exercises_schema import (
     UpdateExerciseRequestSchema,
     UpdateExerciseResponseSchema,
 )
-from tools.assertions.base import assert_equal
+from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_internal_error_response
 
 
@@ -108,11 +108,12 @@ def assert_get_exercises_response(
     create_exercise_responses: list[CreateExerciseResponseSchema],
 ):
     """
-    Checks that the response for getting the list of exercises matches the responses from creating them.
+    Checks that the response for getting exercises contains all exercises created previously.
 
     :param get_exercises_response: The API response when requesting the list of exercises.
-    :param create_exercise_responses: The list of API responses from creating the exercises.
-    :raises AssertionError: If the exercise data does not match.
+    :param create_exercise_responses: The list of API responses from creating exercises.
+    :raises AssertionError: If exercise count or data doesn't match.
     """
+    assert_length(get_exercises_response.exercises, create_exercise_responses, "exercises")
     for index, create_course_response in enumerate(create_exercise_responses):
         assert_exercise(get_exercises_response.exercises[index], create_course_response.exercise)
