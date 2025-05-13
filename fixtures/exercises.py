@@ -40,6 +40,6 @@ def function_exercise(
     :param function_course: The fixture providing the course to associate the exercise with.
     :return: An ExercisesFixture containing request and response data for the created exercise.
     """
-    request = CreateExerciseRequestSchema(courseId=function_course.response.course.id)
+    request = CreateExerciseRequestSchema(course_id=function_course.response.course.id)
     response = exercise_client.create_exercise(request=request)
     return ExercisesFixture(request=request, response=response)
