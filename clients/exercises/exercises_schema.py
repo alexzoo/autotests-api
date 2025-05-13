@@ -20,10 +20,6 @@ class ExerciseSchema(BaseModel):
     estimated_time: str = Field(alias=str("estimatedTime"))
 
 
-class ExercisesSchema(BaseModel):
-    pass
-
-
 class GetExercisesQuerySchema(BaseModel):
     """
     Description of the query parameters for retrieving exercises.

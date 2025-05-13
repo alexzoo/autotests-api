@@ -64,7 +64,7 @@ class TestExercises:
         request = UpdateExerciseRequestSchema()
         response = exercise_client.update_exercise_api(
             function_exercise.response.exercise.id,
-            request=request,
+            request,
         )
         response_data = UpdateExerciseResponseSchema.model_validate_json(response.text)
 
