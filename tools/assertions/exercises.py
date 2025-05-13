@@ -4,6 +4,7 @@ from clients.exercises.exercises_schema import (
     CreateExerciseResponseSchema,
     ExerciseSchema,
     GetExerciseResponseSchema,
+    GetExercisesResponseSchema,
     UpdateExerciseRequestSchema,
     UpdateExerciseResponseSchema,
 )
@@ -100,3 +101,18 @@ def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
     """
     expected = InternalErrorResponseSchema(details="Exercise not found")
     assert_internal_error_response(actual, expected)
+
+
+def assert_get_exercises_response(
+    get_exercises_response: GetExercisesResponseSchema,
+    create_exercise_responses: list[CreateExerciseResponseSchema],
+):
+    """
+    Checks that the response for getting the list of exercises matches the responses from creating them.
+
+    :param get_exercises_response: The API response when requesting the list of exercises.
+    :param create_exercise_responses: The list of API responses from creating the exercises.
+    :raises AssertionError: If the exercise data does not match.
+    """
+    for index, create_course_response in enumerate(create_exercise_responses):
+        assert_exercise(get_exercises_response.exercises[index], create_course_response.exercise)
