@@ -33,11 +33,14 @@ from tools.assertions.schema import validate_json_schema
 @pytest.mark.regression
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.COURSES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.COURSES)
 class TestCourses:
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.severity(Severity.BLOCKER)
     @allure.title("Create course")
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_course(
         self,
         course_client: CoursesClient,
@@ -59,6 +62,7 @@ class TestCourses:
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.severity(Severity.BLOCKER)
     @allure.title("Get courses")
+    @allure.sub_suite(AllureStory.GET_ENTITIES)
     def test_get_courses(
         self,
         course_client: CoursesClient,
@@ -80,6 +84,7 @@ class TestCourses:
     @allure.story(AllureStory.UPDATE_ENTITY)
     @allure.severity(Severity.CRITICAL)
     @allure.title("Update course")
+    @allure.sub_suite(AllureStory.UPDATE_ENTITY)
     def test_update_course(self, course_client: CoursesClient, function_course: CourseFixture):
         request = UpdateCourseRequestSchema()
         response = course_client.update_course_api(
