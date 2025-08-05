@@ -25,19 +25,19 @@ def assert_create_exercise_response(
     :param response: The API response with the created exercise data.
     :raises AssertionError: If at least one field does not match.
     """
-    assert_equal(actual=request.title, expected=response.exercise.title, name="title")
-    assert_equal(actual=request.course_id, expected=response.exercise.course_id, name="course_id")
-    assert_equal(actual=request.max_score, expected=response.exercise.max_score, name="max_score")
-    assert_equal(actual=request.min_score, expected=response.exercise.min_score, name="min_score")
+    assert_equal(actual=response.exercise.title, expected=request.title, name="title")
+    assert_equal(actual=response.exercise.course_id, expected=request.course_id, name="course_id")
+    assert_equal(actual=response.exercise.max_score, expected=request.max_score, name="max_score")
+    assert_equal(actual=response.exercise.min_score, expected=request.min_score, name="min_score")
     assert_equal(
-        actual=request.order_index, expected=response.exercise.order_index, name="order_index"
+        actual=response.exercise.order_index, expected=request.order_index, name="order_index"
     )
     assert_equal(
-        actual=request.description, expected=response.exercise.description, name="description"
+        actual=response.exercise.description, expected=request.description, name="description"
     )
     assert_equal(
-        actual=request.estimated_time,
-        expected=response.exercise.estimated_time,
+        actual=response.exercise.estimated_time,
+        expected=request.estimated_time,
         name="estimated_time",
     )
 
@@ -46,8 +46,8 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """
     Checks that the actual exercise matches the expected exercise.
 
-    :param actual: The actual ExercisesSchema object to verify.
-    :param expected: The expected ExercisesSchema object to compare against.
+    :param actual: The actual ExerciseSchema object to verify.
+    :param expected: The expected ExerciseSchema object to compare against.
     :raises AssertionError: If at least one field does not match.
     """
     assert_equal(actual=actual.id, expected=expected.id, name="id")
@@ -87,12 +87,12 @@ def assert_update_exercise_response(
     :param response: The API response with the updated exercise data.
     :raises AssertionError: If at least one field does not match.
     """
-    assert_equal(response.exercise.title, request.title, "title")
-    assert_equal(response.exercise.max_score, request.max_score, "max_score")
-    assert_equal(response.exercise.min_score, request.min_score, "min_score")
-    assert_equal(response.exercise.order_index, request.order_index, "order_index")
-    assert_equal(response.exercise.description, request.description, "description")
-    assert_equal(response.exercise.estimated_time, request.estimated_time, "estimated_time")
+    assert_equal(actual=response.exercise.title, expected=request.title, name="title")
+    assert_equal(actual=response.exercise.max_score, expected=request.max_score, name="max_score")
+    assert_equal(actual=response.exercise.min_score, expected=request.min_score, name="min_score")
+    assert_equal(actual=response.exercise.order_index, expected=request.order_index, name="order_index")
+    assert_equal(actual=response.exercise.description, expected=request.description, name="description")
+    assert_equal(actual=response.exercise.estimated_time, expected=request.estimated_time, name="estimated_time")
 
 @allure.step("Check exercise not found response")
 def assert_exercise_not_found_response(actual: InternalErrorResponseSchema):
@@ -118,5 +118,5 @@ def assert_get_exercises_response(
     :raises AssertionError: If exercise count or data doesn't match.
     """
     assert_length(get_exercises_response.exercises, create_exercise_responses, "exercises")
-    for index, create_course_response in enumerate(create_exercise_responses):
-        assert_exercise(get_exercises_response.exercises[index], create_course_response.exercise)
+    for index, create_exercise_response in enumerate(create_exercise_responses):
+        assert_exercise(get_exercises_response.exercises[index], create_exercise_response.exercise)
