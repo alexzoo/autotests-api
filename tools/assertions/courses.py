@@ -82,22 +82,22 @@ def assert_create_course_response(
     :param response: The API response with the created course data.
     :raises AssertionError: If at least one field does not match.
     """
-    assert_equal(actual=request.title, expected=response.course.title, name="title")
-    assert_equal(actual=request.max_score, expected=response.course.max_score, name="max_score")
-    assert_equal(actual=request.min_score, expected=response.course.min_score, name="min_score")
-    assert_equal(actual=request.description, expected=response.course.description, name="description")
+    assert_equal(actual=response.course.title, expected=request.title, name="title")
+    assert_equal(actual=response.course.max_score, expected=request.max_score, name="max_score")
+    assert_equal(actual=response.course.min_score, expected=request.min_score, name="min_score")
+    assert_equal(actual=response.course.description, expected=request.description, name="description")
     assert_equal(
-        actual=request.estimated_time,
-        expected=response.course.estimated_time,
+        actual=response.course.estimated_time,
+        expected=request.estimated_time,
         name="estimated_time",
     )
     assert_equal(
-        actual=request.preview_file_id,
-        expected=response.course.preview_file.id,
+        actual=response.course.preview_file.id,
+        expected=request.preview_file_id,
         name="preview_file_id",
     )
     assert_equal(
-        actual=request.created_by_user_id,
-        expected=response.course.created_by_user.id,
+        actual=response.course.created_by_user.id,
+        expected=request.created_by_user_id,
         name="created_by_user_id",
     )
