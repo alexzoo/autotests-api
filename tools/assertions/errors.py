@@ -1,7 +1,14 @@
-from clients.errors_schema import InternalErrorResponseSchema, ValidationErrorResponseSchema, ValidationErrorSchema
+import allure
+
+from clients.errors_schema import (
+    InternalErrorResponseSchema,
+    ValidationErrorResponseSchema,
+    ValidationErrorSchema,
+)
 from tools.assertions.base import assert_equal, assert_length
 
 
+@allure.step("Check validation error")
 def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationErrorSchema):
     """
     Checks that the validation error object matches the expected value.
@@ -17,6 +24,7 @@ def assert_validation_error(actual: ValidationErrorSchema, expected: ValidationE
     assert_equal(actual.location, expected.location, "location")
 
 
+@allure.step("Check validation error response")
 def assert_validation_error_response(
     actual: ValidationErrorResponseSchema,
     expected: ValidationErrorResponseSchema,
@@ -35,9 +43,9 @@ def assert_validation_error_response(
         assert_validation_error(actual.details[index], detail)
 
 
+@allure.step("Check internal error response")
 def assert_internal_error_response(
-        actual: InternalErrorResponseSchema,
-        expected: InternalErrorResponseSchema
+    actual: InternalErrorResponseSchema, expected: InternalErrorResponseSchema
 ):
     """
     Checks that the API response object with an internal error (`InternalErrorResponseSchema`)

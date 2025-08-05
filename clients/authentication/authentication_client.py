@@ -1,8 +1,13 @@
+import allure
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.authentication.authentication_schema import (
+    LoginRequestSchema,
+    LoginResponseSchema,
+    RefreshRequestSchema,
+)
 from clients.public_http_builder import get_public_http_client
-from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema, RefreshRequestSchema
 
 
 class AuthenticationClient(APIClient):
@@ -10,6 +15,7 @@ class AuthenticationClient(APIClient):
     Client for working with /api/v1/authentication
     """
 
+    @allure.step("Authenticate user")
     def login_api(self, request: LoginRequestSchema) -> Response:
         """
         This method performs user authentication.
@@ -17,11 +23,9 @@ class AuthenticationClient(APIClient):
         :param request: A LoginRequestSchema object containing email and password.
         :return: The server response as an httpx.Response object.
         """
-        return self.post(
-            "/api/v1/authentication/login",
-            json=request.model_dump(by_alias=True)
-        )
+        return self.post("/api/v1/authentication/login", json=request.model_dump(by_alias=True))
 
+    @allure.step("Refresh authentication token")
     def refresh_api(self, request: RefreshRequestSchema) -> Response:
         """
         This method refreshes the authorization token.
@@ -29,10 +33,7 @@ class AuthenticationClient(APIClient):
         :param request: A RefreshRequestSchema object containing refreshToken.
         :return: The server response as an httpx.Response object.
         """
-        return self.post(
-            "/api/v1/authentication/refresh",
-            json=request.model_dump(by_alias=True)
-        )
+        return self.post("/api/v1/authentication/refresh", json=request.model_dump(by_alias=True))
 
     def login(self, request: LoginRequestSchema) -> LoginResponseSchema:
         """

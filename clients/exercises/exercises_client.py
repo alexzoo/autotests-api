@@ -1,9 +1,15 @@
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.exercises.exercises_schema import CreateExerciseRequestSchema, \
-    CreateExerciseResponseSchema, GetExerciseResponseSchema, GetExercisesQuerySchema, \
-    GetExercisesResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema
+from clients.exercises.exercises_schema import (
+    CreateExerciseRequestSchema,
+    CreateExerciseResponseSchema,
+    GetExerciseResponseSchema,
+    GetExercisesQuerySchema,
+    GetExercisesResponseSchema,
+    UpdateExerciseRequestSchema,
+    UpdateExerciseResponseSchema,
+)
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 
@@ -19,7 +25,7 @@ class ExercisesClient(APIClient):
         :param query: Dictionary with query parameters for filtering exercises.
         :return: The server response as an httpx.Response object.
         """
-        return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True))
+        return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True, exclude_none=True))  # type: ignore
 
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
@@ -47,8 +53,7 @@ class ExercisesClient(APIClient):
         :param request: Dictionary with exercise data to update.
         :return: The server response as an httpx.Response object.
         """
-        return self.patch(f"/api/v1/exercises/{exercise_id}",
-                          json=request.model_dump(by_alias=True))
+        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
@@ -90,9 +95,7 @@ class ExercisesClient(APIClient):
         return CreateExerciseResponseSchema.model_validate_json(response.text)
 
     def update_exercise(
-        self,
-        exercise_id: str,
-        request: UpdateExerciseRequestSchema
+        self, exercise_id: str, request: UpdateExerciseRequestSchema
     ) -> UpdateExerciseResponseSchema:
         """
         Method to update an existing exercise.
@@ -101,9 +104,7 @@ class ExercisesClient(APIClient):
         :param request: Dictionary with exercise data to update.
         :return: Parsed JSON response containing the updated exercise data.
         """
-        response = self.update_exercise_api(
-            exercise_id,
-            request)
+        response = self.update_exercise_api(exercise_id, request)
         return UpdateExerciseResponseSchema.model_validate_json(response.text)
 
 
