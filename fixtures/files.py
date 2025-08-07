@@ -1,6 +1,8 @@
 import pytest
 from pydantic import BaseModel
 
+from config import settings
+
 from clients.files.files_client import FilesClient, get_files_client
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
 from fixtures.users import UserFixture
@@ -30,7 +32,7 @@ def function_file(files_client: FilesClient) -> FileFixture:
     :return: A FilesFixture containing the request and response data for the created file.
     """
     request = CreateFileRequestSchema(
-        upload_file="/Users/zubescu/my_projects/autotests-api/testdata/files/image.png"
+        upload_file=settings.test_data.image_png_file
     )
     response = files_client.create_file(request=request)
     return FileFixture(request=request, response=response)
