@@ -26,4 +26,4 @@ class Settings(BaseSettings):
     http_client: HTTPClientConfig
 
 
-settings = Settings()
+settings = Settings()  # type: ignore

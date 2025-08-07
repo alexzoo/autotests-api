@@ -1,5 +1,4 @@
 import allure
-from config import settings
 
 from clients.errors_schema import (
     InternalErrorResponseSchema,
@@ -12,11 +11,15 @@ from clients.files.files_schema import (
     FileSchema,
     GetFileResponseSchema,
 )
+from config import settings
 from tools.assertions.base import assert_equal
 from tools.assertions.errors import (
     assert_internal_error_response,
     assert_validation_error_response,
 )
+from tools.logger import get_logger
+
+logger = get_logger("FILES_ASSERTIONS")
 
 
 @allure.step("Check create file response")
@@ -33,6 +36,8 @@ def assert_create_file_response(
     """
     expected_url = f"{settings.http_client.client_url}static/{request.directory}/{request.filename}"
 
+    logger.info("Check create file response")
+
     assert_equal(str(response.file.url), expected_url, "url")
     assert_equal(response.file.filename, request.filename, "filename")
     assert_equal(response.file.directory, request.directory, "directory")
@@ -47,6 +52,8 @@ def assert_file(actual: FileSchema, expected: FileSchema):
     :param expected: The expected file data.
     :raises AssertionError: If at least one field does not match.
     """
+    logger.info("Check file")
+
     assert_equal(actual=actual.id, expected=expected.id, name="id")
     assert_equal(actual=actual.url, expected=expected.url, name="url")
     assert_equal(actual=actual.filename, expected=expected.filename, name="filename")
@@ -64,6 +71,8 @@ def assert_get_file_response(
     :param create_file_response: The API response when creating the file.
     :raises AssertionError: If the file data does not match.
     """
+    logger.info("Check get file response")
+
     assert_file(get_file_response.file, create_file_response.file)
 
 
@@ -86,6 +95,8 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
             )
         ]
     )
+    logger.info("Check create file with empty filename response")
+
     assert_validation_error_response(actual, expected)
 
 
@@ -108,6 +119,8 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
             )
         ]
     )
+    logger.info("Check create file with empty directory response")
+
     assert_validation_error_response(actual, expected)
 
 
@@ -120,6 +133,9 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     :raises AssertionError: If the actual response does not match the expected "File not found" error.
     """
     expected = InternalErrorResponseSchema(details="File not found")  # type: ignore
+
+    logger.info("Check file not found response")
+
     assert_internal_error_response(actual, expected)
 
 
@@ -144,4 +160,6 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
             )
         ]
     )
+    logger.info("Check get file with incorrect file id response")
+
     assert_validation_error_response(actual, expected)
