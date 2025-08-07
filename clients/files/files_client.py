@@ -29,12 +29,11 @@ class FilesClient(APIClient):
         path to the file to upload.
         :return: The server response as an httpx.Response object.
         """
-        with open(request.upload_file, 'rb') as file:
-            return self.post(
-                "/api/v1/files",
-                data=request.model_dump(by_alias=True, exclude={'upload_file'}),
-                files={"upload_file": file}
-            )
+        return self.post(
+            url="/api/v1/files",
+            data=request.model_dump(by_alias=True, exclude={'upload_file'}),
+            files={"upload_file": request.upload_file.read_bytes()}
+        )
 
     @allure.step("Delete file by id {file_id}")
     def delete_file_api(self, file_id: str) -> Response:

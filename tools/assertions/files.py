@@ -1,4 +1,5 @@
 import allure
+from config import settings
 
 from clients.errors_schema import (
     InternalErrorResponseSchema,
@@ -30,7 +31,7 @@ def assert_create_file_response(
     :param response: The API response with file data.
     :raises AssertionError: If at least one field does not match.
     """
-    expected_url = f"http://localhost:8000/static/{request.directory}/{request.filename}"
+    expected_url = f"{settings.http_client.client_url}static/{request.directory}/{request.filename}"
 
     assert_equal(str(response.file.url), expected_url, "url")
     assert_equal(response.file.filename, request.filename, "filename")
