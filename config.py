@@ -27,7 +27,7 @@ class Settings(BaseSettings):
 
     test_data: TestDataConfig
     http_client: HTTPClientConfig
-    allure_results_dir: DirectoryPath = DirectoryPath("./allure-results")
+    allure_results_dir: DirectoryPath
 
     @classmethod
     def initialize(cls) -> Self:
