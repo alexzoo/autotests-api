@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjI1LjAzMzYwNiIsInVzZXJfaWQiOiIwYmQxNzZhZi04YzYwLTQxZDUtOTM1My1hMzhmZDY1ZGI5NWIifQ.4TKDVLOcTT4gL3R51xWs5SJWXYdXWXKX2dklIBmUtSo' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lot respond under generation worry human energy.","maxScore":88,"minScore":17,"description":"Yeah take experience rather hospital book.\nDark economic movie which arrive market no recent. Mouth oil check us who. Buy really special staff. Military media high anyone.","estimatedTime":"5 weeks","previewFileId":"0a709ac9-bb5f-4fd6-a7e8-66df6fa62eaf","createdByUserId":"0bd176af-8c60-41d5-9353-a38fd65db95b"}'

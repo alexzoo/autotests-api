@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjI3LjQ5OTcwMyIsInVzZXJfaWQiOiI3ZGUwODk3MS1lYTFjLTQ0NmEtODYyMy05OWYwYzA3YTlkYTYifQ.rPHE8l4jYuQkGblJI3Cfdx7HThYU4vPvrQ6sygC1Dlk' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Boy authority away night campaign above treat.","maxScore":97,"minScore":6,"description":"Training share capital order. Sea shake staff face scientist. Hair team capital you action buy major. Summer within citizen like image.","estimatedTime":"6 weeks","previewFileId":"c79a7801-1821-4b33-89a7-d6a885fb29a0","createdByUserId":"7de08971-ea1c-446a-8623-99f0c07a9da6"}'

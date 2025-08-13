@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjI2Ljg0ODcyMiIsInVzZXJfaWQiOiJmNDJjNWI5YS00NWI3LTQ1OTAtODg5ZC00NzA0YzNlYjY0ZDYifQ.K-3hmLFvSMB468HV7P2-nswQfoVM5x1fPLjxzdI9Z0k' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Light share per quickly argue shoulder.","maxScore":60,"minScore":14,"description":"Money score company best prevent short clearly. Whose accept TV stay hundred executive administration.","estimatedTime":"4 weeks","previewFileId":"4d2c71e3-d601-48fb-8059-c7d714812351","createdByUserId":"f42c5b9a-45b7-4590-889d-4704c3eb64d6"}'

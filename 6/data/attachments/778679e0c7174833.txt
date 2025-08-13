@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Make GET request to http://localhost:8000/api/v1/exercises/5dd7f55c-0305-4027-9dbf-05025ba385b9
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises/5dd7f55c-0305-4027-9dbf-05025ba385b9
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:79 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:55 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 5dd7f55c-0305-4027-9dbf-05025ba385b9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Mother realize else season certain grow.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 70b6481d-65fd-458a-948b-ab0b2771674f
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 32
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Deep song them administration once shoulder speech. Friend you which real benefit wish. Rule together girl.
+Central turn class various school matter key. Stuff step have continue kid analysis.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

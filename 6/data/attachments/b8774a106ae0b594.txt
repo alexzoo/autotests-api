@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjI4LjA4MTg3NCIsInVzZXJfaWQiOiIxYjdiZGEzMi1lZjRkLTRmNzgtYTQwNy00NDYyOTIzOGY3ODgifQ.Vpgku-nyTtWRWizhEzZY2ETSvO6Rv8_XajCOZ3kOHrY' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Forget foreign senior thank success just support.","maxScore":70,"minScore":16,"description":"Window imagine beyond great coach. Chance yard about between public toward. Thank Mrs nice. Particularly guess push energy.\nPer husband material.","estimatedTime":"7 weeks","previewFileId":"ffdcadb5-fb46-497a-976b-376bec87b56f","createdByUserId":"1b7bda32-ef4d-4f78-a407-44629238f788"}'

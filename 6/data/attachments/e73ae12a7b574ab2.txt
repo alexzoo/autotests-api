@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjIzLjU1NTYxNiIsInVzZXJfaWQiOiJiYjMxNGY0Ni0xMDIyLTQ5MzUtOGFiZi1hY2IzNjk1MTQ0NTEifQ.ETptah5Um0NibeCMfGsLpR3fKRZkoW7AEXK6FKKGoDM' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Account myself American personal form ten book more.","maxScore":82,"minScore":21,"description":"Step local already fall security. State which east energy home second room information. Experience remain especially debate.\nMight theory scene share positive more. Into color one some including.","estimatedTime":"8 weeks","previewFileId":"0e72501c-732a-4f0f-b500-a6d23164a0fb","createdByUserId":"bb314f46-1022-4935-8abf-acb369514451"}'

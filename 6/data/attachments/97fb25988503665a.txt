@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Make GET request to http://localhost:8000/api/v1/exercises?courseId=e70c4250-be4a-44bf-a8c9-fdfec2e42163
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=e70c4250-be4a-44bf-a8c9-fdfec2e42163
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:134 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:67 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:55 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to b60bba23-1cee-4b57-9611-9a49f0ab463c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Religious of middle structure.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to e70c4250-be4a-44bf-a8c9-fdfec2e42163
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 94
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Town walk character possible Mr husband last.
+Public experience grow because particular. At city serve move safe may red fly. History economic fall doctor.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9e44a383-7280-4eac-8890-4ddfd4f41b98' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjI1LjAzMzYwNiIsInVzZXJfaWQiOiIwYmQxNzZhZi04YzYwLTQxZDUtOTM1My1hMzhmZDY1ZGI5NWIifQ.4TKDVLOcTT4gL3R51xWs5SJWXYdXWXKX2dklIBmUtSo' \
+  -H 'content-length: 250' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Set wear key conference.","maxScore":97,"minScore":25,"description":"Statement seek weight affect control game. Air table until into stage cause.\nFormer industry support reduce worry. Usually establish kid size.","estimatedTime":"9 weeks"}'

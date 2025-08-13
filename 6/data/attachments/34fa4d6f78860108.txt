@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjI2Ljg0ODcyMiIsInVzZXJfaWQiOiJmNDJjNWI5YS00NWI3LTQ1OTAtODg5ZC00NzA0YzNlYjY0ZDYifQ.K-3hmLFvSMB468HV7P2-nswQfoVM5x1fPLjxzdI9Z0k' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother realize else season certain grow.","courseId":"70b6481d-65fd-458a-948b-ab0b2771674f","maxScore":81,"minScore":6,"orderIndex":32,"description":"Deep song them administration once shoulder speech. Friend you which real benefit wish. Rule together girl.\nCentral turn class various school matter key. Stuff step have continue kid analysis.","estimatedTime":"5 weeks"}'

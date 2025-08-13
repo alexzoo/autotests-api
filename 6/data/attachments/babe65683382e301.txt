@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjQ4OjI1LjYyNzU4NyIsInVzZXJfaWQiOiI5YzBkYmUwMS1mZGVlLTQ0MzAtODcwZi1jOTAxNWU2NzZjYjYifQ.pTLUiZ1LkUbSecuR41w0YcjpGTyqqUBD4CMupDMeGfo' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heart response easy middle mind perhaps.","maxScore":55,"minScore":1,"description":"Less least really sing number national might. One career painting try case understand kid radio.\nAfter food in note how. Identify military firm expert.","estimatedTime":"6 weeks","previewFileId":"03daea16-89e1-486e-8850-2b7663a0f318","createdByUserId":"9c0dbe01-fdee-4430-870f-c9015e676cb6"}'
