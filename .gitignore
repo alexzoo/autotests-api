@@ -37,6 +37,9 @@ htmlcov/
 .ai/
 cursor-tutor/
 
+# Temporary files
+temp/
+
 # OS
 .DS_Store
 Thumbs.db
