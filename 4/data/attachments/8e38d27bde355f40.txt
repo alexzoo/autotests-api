@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjM5LjY1NzA4NSIsInVzZXJfaWQiOiIxZjRhMzM4ZS0yMDk1LTQ4YjctODQ4OC02Njg1ZDFmNWMzNmEifQ.Er1cDeVlSHzleiVFMGDy_W1F7QQ2lTByeYTn6nlbxNQ' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Week instead parent environmental strong.","maxScore":68,"minScore":23,"description":"Data long group season town receive usually make. Job doctor receive necessary. Again blue dark bring.","estimatedTime":"1 weeks","previewFileId":"48461108-c115-40e5-b2fc-05c37e90d0a8","createdByUserId":"1f4a338e-2095-48b7-8488-6685d1f5c36a"}'

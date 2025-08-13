@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjM3Ljg1MTczMCIsInVzZXJfaWQiOiJjYzRiYzUwNi03YzI5LTRmZjktOTEyNy04YzE4OTI4MzFiYjQifQ._lKKeiIkAvVLhNOESxO0g8zCLxKMf07ftqLVFkZytho' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Red chance instead he my whatever article lot.","maxScore":50,"minScore":8,"description":"Your movie see kitchen agency happy.\nShow gun wife cover interest drive opportunity. Include report process board beat cold. Step expert son suffer then.","estimatedTime":"5 weeks","previewFileId":"aee6fc44-bd9c-4c6e-bf7b-19f3d421b237","createdByUserId":"cc4bc506-7c29-4ff9-9127-8c1892831bb4"}'

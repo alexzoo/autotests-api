@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjM2LjY3NDM2MCIsInVzZXJfaWQiOiJiMDY5ODMyOC03OTk4LTQyMTctOTdlZi05NjhlOTI3ZDE5NWIifQ._iKxFSFNZaIEyx1YQ0CU-DBZhcMjLeUNdevD7BhwTsw' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third language computer only decade.","maxScore":61,"minScore":27,"description":"Federal entire figure same. Scene his much father school religious learn. Either whether letter develop.\nFirm never talk. Full career consumer kitchen other but.\nThough property black expect.","estimatedTime":"2 weeks","previewFileId":"b92632b7-0964-4a14-9786-a6acae61f3e6","createdByUserId":"b0698328-7998-4217-97ef-968e927d195b"}'

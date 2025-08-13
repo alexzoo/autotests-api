@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Seek kid sport ball.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 83
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 26
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Against way economic spring child lawyer any leave. Line tough edge life space person sit reach. Often goal may case tax relate guess.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 9b0631de-f01b-44be-a8a4-8e052742dc0c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 5448ad1e-529d-487e-9c8a-8e259af9f0a1
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

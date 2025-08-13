@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjM4LjQzODE0OSIsInVzZXJfaWQiOiI3YzgzM2FmOC0yZTgyLTRhNWYtODU0My1kODAzYmM5ZGE4YjYifQ.s0P0JkwZ2zmw02X7fkKJSxQ5_rus3ROQG6ldx-4ha2k' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Through response who president total staff although.","maxScore":64,"minScore":4,"description":"And physical performance effort fine well career. Hear year into industry tonight.\nSignificant summer similar father read. Before economic water decade media. Mention radio heavy western.","estimatedTime":"9 weeks","previewFileId":"cd817990-f259-4534-86c2-b81b662738d4","createdByUserId":"7c833af8-2e82-4a5f-8543-d803bc9da8b6"}'

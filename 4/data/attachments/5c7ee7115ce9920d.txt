@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjQwLjkwMDcxMCIsInVzZXJfaWQiOiI1Y2RhYzNmZS1hMGE5LTRjNmMtYTBhMC05MzBjYzZhYTE3MGYifQ.PawFmZ4d28v0RAKqzhVMUvz7eob2w8nNnwKD4x8F6oA' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Car improve know night simply production.","maxScore":97,"minScore":27,"description":"Film road ask perform size raise. Writer respond rock key. Teacher bed prevent society get.\nTree walk rather.\nDecision much five describe camera audience.","estimatedTime":"4 weeks","previewFileId":"973baffd-bb3f-4d73-a2e0-b13a686c8182","createdByUserId":"5cdac3fe-a0a9-4c6c-a0a0-930cc6aa170f"}'

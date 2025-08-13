@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/28bedb33-9882-4716-b25d-cf7031cd6e11' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjM3Ljg1MTczMCIsInVzZXJfaWQiOiJjYzRiYzUwNi03YzI5LTRmZjktOTEyNy04YzE4OTI4MzFiYjQifQ._lKKeiIkAvVLhNOESxO0g8zCLxKMf07ftqLVFkZytho' \
+  -H 'content-length: 278' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Even structure money also.","maxScore":88,"minScore":12,"description":"Other section now property ready rock. Report number glass seven suggest.\nCamera its American office usually. South all trouble win although a. Physical protect always.","estimatedTime":"9 weeks"}'

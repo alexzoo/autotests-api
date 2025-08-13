@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjQwLjMwODUxMSIsInVzZXJfaWQiOiI4MmFlMWY1NS01Zjg5LTQwYjUtYWQxNy0wZjEzZmI2YjZjYWMifQ.rOYZ4oRtC-uXsavNhrSUpp_QQ58VjLXG9NWmsXEagkk' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Individual imagine one bank glass state thought break.","maxScore":50,"minScore":27,"description":"Gun little financial foreign leave modern concern.\nConsider short up there media her enter can. Behind tonight radio tell course cup morning laugh. Decide organization both begin.","estimatedTime":"3 weeks","previewFileId":"29e8a689-54a4-4b5c-b3b1-4a95c5f75c71","createdByUserId":"82ae1f55-5f89-40b5-ad17-0f13fb6b6cac"}'

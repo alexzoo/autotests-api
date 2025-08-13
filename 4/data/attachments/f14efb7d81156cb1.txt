@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjE5OjM5LjA3NDYzMSIsInVzZXJfaWQiOiIxZjFjMjhkOC1jNjY2LTRhMDQtYWM2OC1kMmQxNGUzOTU3NjAifQ.iIC00L8fd5W_ushfPSU5F6E6uU3esVLPq60Er05jSJ4' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Occur thus half improve.","maxScore":50,"minScore":24,"description":"Huge resource story at meeting life medical. Product street computer end. Put order firm especially sign.\nNearly weight like pattern police three. Travel book sign look half.","estimatedTime":"10 weeks","previewFileId":"1324f64e-fc99-462f-ab97-c447010c31d3","createdByUserId":"1f1c28d8-c666-4a04-ac68-d2d14e395760"}'
