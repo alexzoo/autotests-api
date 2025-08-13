@@ -1,0 +1,10 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     AUTHENTICATION_ASSERTIONS:authentication.py:18 Check login response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "token_type" equals to bearer
+INFO     BASE_ASSERTIONS:base.py:52 Check that "access_token" is true
+INFO     BASE_ASSERTIONS:base.py:52 Check that "refresh_token" is true
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

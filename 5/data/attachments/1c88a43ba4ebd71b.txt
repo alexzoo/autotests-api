@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjMwLjQ2MzYzMiIsInVzZXJfaWQiOiI4M2FkOWE3My0wZWE3LTRjNTEtOWJkNC1kMzRmMWY1ZWFjNzAifQ.KJ2gCkAe7pbVlP6_0T5c5niTC2VCcLdAVTMFAd3EWY8' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board she yet argue.","courseId":"831f3962-d7a8-4983-89ae-2de94c258847","maxScore":53,"minScore":6,"orderIndex":9,"description":"Little not thing rise myself radio produce agency. Local book action then produce since.\nLanguage service commercial sense raise state. Cut region market play course particular back.","estimatedTime":"7 weeks"}'

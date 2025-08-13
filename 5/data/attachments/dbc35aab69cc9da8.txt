@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjI5LjUzMTU0NCIsInVzZXJfaWQiOiI1ZjM3M2EyMC1kMDQwLTQzMTctODkzZC1hMzM4NWExYTc0ZWUifQ.QG8pglfqSXEswL_rZVT23nYiMhOC-TPH6pFxOntsHQM' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Back character newspaper act ago.","maxScore":88,"minScore":15,"description":"Than these agent pull team. Miss outside should yes early seat travel grow.\nForget local improve other national above study. Wrong story address law power window.","estimatedTime":"5 weeks","previewFileId":"ea857d6d-9f45-4b6e-866e-d4ed6a33db6c","createdByUserId":"5f373a20-d040-4317-893d-a3385a1a74ee"}'

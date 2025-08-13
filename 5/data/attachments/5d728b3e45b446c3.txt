@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjMwLjQ2MzYzMiIsInVzZXJfaWQiOiI4M2FkOWE3My0wZWE3LTRjNTEtOWJkNC1kMzRmMWY1ZWFjNzAifQ.KJ2gCkAe7pbVlP6_0T5c5niTC2VCcLdAVTMFAd3EWY8' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun rule discover focus skin.","maxScore":86,"minScore":16,"description":"Until record personal create back relate however. Exist step low. Report floor car although recent street collection.","estimatedTime":"9 weeks","previewFileId":"02564d82-6025-4eff-bb9f-5171b93fc4dc","createdByUserId":"83ad9a73-0ea7-4c51-9bd4-d34f1f5eac70"}'

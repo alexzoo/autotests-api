@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjI1Ljc0MTIwMiIsInVzZXJfaWQiOiJkMDViMmY5MC0xNjg5LTQ2MmUtODdmYS05NjM2MDllZjhjN2UifQ.fCx71fPjjdvaDrw998zSFO9OAh8lYJCjCVuPIOFN-eY' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treatment arrive choice.","maxScore":88,"minScore":8,"description":"Southern every goal Democrat million stuff color. Challenge bed recognize standard finally old also. Walk dark action. Section sure member.","estimatedTime":"2 weeks","previewFileId":"0141754e-4dc6-45d6-bc4e-e81b19aaabb7","createdByUserId":"d05b2f90-1689-462e-87fa-963609ef8c7e"}'

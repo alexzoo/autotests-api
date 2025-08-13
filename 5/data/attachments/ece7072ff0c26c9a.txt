@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Make GET request to http://localhost:8000/api/v1/exercises/0b4469e1-dc74-4e2b-ad0f-f35d138998a2
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises/0b4469e1-dc74-4e2b-ad0f-f35d138998a2
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:79 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:55 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 0b4469e1-dc74-4e2b-ad0f-f35d138998a2
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to While dinner treat much experience painting trade specific.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to d01e3c60-3841-4a54-8664-adae50e17be2
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 98
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Stage same power ahead ground yourself couple city. Measure along machine simple hit likely. Throw car eat public nor support school smile.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjI4LjMzNzMyOCIsInVzZXJfaWQiOiJlZmQxNmY3OC0yMDk0LTQ1OTEtYmFiMS0wOTQwNjkxMGZmYjgifQ.-6duI1XJEVdInum0nMYvzoj_rURnuLth0MxC8b0FBoo' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Around yourself manage director.","maxScore":81,"minScore":16,"description":"Prevent president wear executive kitchen though produce. Task claim federal security. Fall sit far off available point meeting.","estimatedTime":"10 weeks","previewFileId":"055f3316-eeca-45c8-86e4-8868496f9587","createdByUserId":"efd16f78-2094-4591-bab1-09406910ffb8"}'

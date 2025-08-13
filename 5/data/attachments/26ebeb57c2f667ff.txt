@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjI3LjE1MzEzNyIsInVzZXJfaWQiOiI5YjczNTJjNi04MjI1LTQ2YjUtOWM5MS03NzJlOTU5YmNiYjkifQ.WbE9ZQIjzN0-KsczbwXAK3PXgUpjINvrmKj0dhxYmYY' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"So carry report sea knowledge admit.","maxScore":65,"minScore":22,"description":"View interest somebody ball central week event hit. Crime trade discover water product seat entire. American sell news seek company memory Republican. Control like decision.","estimatedTime":"7 weeks","previewFileId":"694fef88-e4f6-46a9-b557-c117ca720971","createdByUserId":"9b7352c6-8225-46b5-9c91-772e959bcbb9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjI4LjMzNzMyOCIsInVzZXJfaWQiOiJlZmQxNmY3OC0yMDk0LTQ1OTEtYmFiMS0wOTQwNjkxMGZmYjgifQ.-6duI1XJEVdInum0nMYvzoj_rURnuLth0MxC8b0FBoo' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Have throw film art quite pay admit.","courseId":"81d55abe-dc68-467b-8cf8-ed0d077c9543","maxScore":87,"minScore":23,"orderIndex":40,"description":"Turn American test wall. Position let involve message contain life box.\nResponsibility small risk trial avoid. Government trade truth whole hair public any. Type many notice sure maybe.","estimatedTime":"1 weeks"}'

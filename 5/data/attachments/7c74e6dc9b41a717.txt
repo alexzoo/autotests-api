@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjI5LjI1Nzc3MyIsInVzZXJfaWQiOiJiZWZmYWEwMC05Yzk5LTRjNWQtOTJiOS02ZjczZTYxODU4MmYifQ.lglizGi2ALFMsPfcwo1RnfWMMbw-vXK9mTugUelQjlo' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expert little wait begin visit the.","maxScore":90,"minScore":3,"description":"Enough budget learn fact. Produce reach while always. Cut ten lot be community benefit find other.\nLine Republican brother begin inside different successful. Lawyer great stuff health first act.","estimatedTime":"7 weeks","previewFileId":"4c91f0f0-3c0d-4a87-869e-79059d3e4247","createdByUserId":"beffaa00-9c99-4c5d-92b9-6f73e618582f"}'

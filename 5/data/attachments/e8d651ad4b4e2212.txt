@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTEzVDE3OjI1OjI4LjA2NDMxMCIsInVzZXJfaWQiOiJhOWJlNjc4ZC0wZjVmLTQ0NWQtYmE4NS0xNzhkNDllZmQ3NjEifQ.yniAfmcePCSmwuPHCe6j8fmFJWp__ycpiL3PVn9jCUk' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn station one him.","maxScore":88,"minScore":13,"description":"Impact ahead body remain. Baby pattern glass.\nOnto suffer senior month road. Together tend point whose choice. Speech manager arm season cover lawyer.\nAny drop without. Garden good never.","estimatedTime":"1 weeks","previewFileId":"36f9a239-4f71-4f23-b9ea-ec696b61c4fa","createdByUserId":"a9be678d-0f5f-445d-ba85-178d49efd761"}'
