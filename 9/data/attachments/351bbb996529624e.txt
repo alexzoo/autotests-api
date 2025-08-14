@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ5LjY3MzcyOCIsInVzZXJfaWQiOiJjMmNiZDNkMC02MzRkLTRmNGItYmExYy04ODYxZmU5MmI0YzAifQ.udKOfC7vGGzlREC63O8Y4M9VR_OPgdyOaJ_-QQStynk' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Career young best seven.","maxScore":87,"minScore":23,"description":"Gun manage budget data last top. Degree decide current others possible.\nCall kitchen ok capital. Stuff onto wish forget. Pretty little employee like.","estimatedTime":"6 weeks","previewFileId":"3a9baa34-d636-4a9e-9d73-c9bd29f01096","createdByUserId":"c2cbd3d0-634d-4f4b-ba1c-8861fe92b4c0"}'

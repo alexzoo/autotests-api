@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ3LjU1Njg0MiIsInVzZXJfaWQiOiJhMGI2NjAyNS0yNTZjLTQzN2MtYjhjZC00MDg5ODE1YjA2ZDYifQ.edYhFXm8bqrEfFmIpwfj0rU_0mLfwxPIstvDN74pzWM' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy focus couple enjoy fly certainly.","maxScore":73,"minScore":28,"description":"Do generation to explain senior some open. Significant live forward car. Animal build theory between teacher weight.","estimatedTime":"1 weeks","previewFileId":"61c4e41b-2c1d-47d3-af6e-fb34c07c8c9e","createdByUserId":"a0b66025-256c-437c-b8cd-4089815b06d6"}'

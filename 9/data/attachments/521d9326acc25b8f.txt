@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bd2da0b8-ea47-4930-ab11-c0f1d0d12d46' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ2LjM3NzU3MSIsInVzZXJfaWQiOiI0ZTliMGJiMy04YzUwLTRhNmEtODRlMC1iN2RlMjQ3Yzk3MzMifQ.ZTyKsX2IulqunaTx5-CoiUhJXbXGQHQkNePs19e9KBY' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"High father improve idea federal interview ago.","maxScore":96,"minScore":15,"description":"Response artist down thing group. Reach yard expert modern form summer. Than attention the left.\nRepublican base small both maybe. Eat weight individual girl story your.","estimatedTime":"6 weeks"}'

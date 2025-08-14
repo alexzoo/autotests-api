@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Dog either really such near if mouth.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Generation person common cultural current add sing door. Detail home why kitchen speech improve.
+Candidate rise give. Lawyer claim than city.
+Drive trip really office. Throughout mind seem energy.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to b0fa8ccc-2c68-4b8a-b9d9-b078c4f168ae
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to cf668760-5a2e-4ae4-beae-a5f37c21e02f
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

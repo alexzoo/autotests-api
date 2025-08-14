@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ4LjczOTYzMyIsInVzZXJfaWQiOiI1ZWVkMGViNy0wZDc1LTQ3YTItOGFmMS1mN2ZiYzIyYjc2MDUifQ.F1_c8eHgapMJhY7uIDhYe5hXhBEo8vBgozJnStrHXFo' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Phone away imagine fight spend along traditional.","courseId":"3e8f60ee-29ab-4466-853d-a79d199bd055","maxScore":61,"minScore":1,"orderIndex":9,"description":"Eight film give happen beautiful party. Find reason especially.\nLaw wife responsibility reason person drive. Choose once other do identify mind believe.","estimatedTime":"8 weeks"}'

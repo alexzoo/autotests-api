@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ4LjczOTYzMyIsInVzZXJfaWQiOiI1ZWVkMGViNy0wZDc1LTQ3YTItOGFmMS1mN2ZiYzIyYjc2MDUifQ.F1_c8eHgapMJhY7uIDhYe5hXhBEo8vBgozJnStrHXFo' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Table fine short fund.","maxScore":96,"minScore":2,"description":"Create education bar TV lose. Church by book check.\nWant serve send teach. None southern sea relate. Its accept power mention entire sometimes.","estimatedTime":"8 weeks","previewFileId":"ae8bbc9b-2868-4245-a063-8e1d8f738e40","createdByUserId":"5eed0eb7-0d75-47a2-8af1-f7fbc22b7605"}'

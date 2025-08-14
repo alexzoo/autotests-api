@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ3LjI4MzY2NyIsInVzZXJfaWQiOiI4YjE4ZGYyZC1iNTYzLTQwZGItODIzYi0xNmY5ZTY3Zjk0ODYifQ.CL-8EYtcx-LNpgXKocrRgjijIva7PWV0rBZlrXXVIHQ' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Perform entire be enter sure increase own.","maxScore":72,"minScore":30,"description":"Effect range heart. Never food interesting who. Large share make pay hair give.\nBetter fight every gun. Those speak pretty program middle.","estimatedTime":"1 weeks","previewFileId":"54364839-8ddd-4ef6-b20f-393ca99cc651","createdByUserId":"8b18df2d-b563-40db-823b-16f9e67f9486"}'

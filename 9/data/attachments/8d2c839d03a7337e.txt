@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ2LjEwMjc5NSIsInVzZXJfaWQiOiJjZjY2ODc2MC01YTJlLTRhZTQtYmVhZS1hNWYzN2MyMWUwMmYifQ.w2293_KNZfjGm7_HmIhm6n3HnjY68-jX0l0kmXBJ-lE' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Dog either really such near if mouth.","maxScore":78,"minScore":3,"description":"Generation person common cultural current add sing door. Detail home why kitchen speech improve.\nCandidate rise give. Lawyer claim than city.\nDrive trip really office. Throughout mind seem energy.","estimatedTime":"7 weeks","previewFileId":"b0fa8ccc-2c68-4b8a-b9d9-b078c4f168ae","createdByUserId":"cf668760-5a2e-4ae4-beae-a5f37c21e02f"}'

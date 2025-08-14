@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ4LjQ2NTYxNSIsInVzZXJfaWQiOiJkM2NhMzE5Ny0xZTU1LTRjMTYtOTJmNC1iMzczNWQ4ZjE1NjkifQ.IS2SSFrCYnsHHZpYa8ygQxHyKJrPW6ydsP-RDbRojcw' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Natural property beyond.","maxScore":74,"minScore":25,"description":"Believe national rest we save difference catch. Maintain college perhaps stage. Reality box two another.\nElection effort ready budget. Parent may clear meet business pull past.","estimatedTime":"5 weeks","previewFileId":"fcde4026-e550-49ad-97a2-c87369dd65f2","createdByUserId":"d3ca3197-1e55-4c16-92f4-b3735d8f1569"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjI0OjQ3LjU1Njg0MiIsInVzZXJfaWQiOiJhMGI2NjAyNS0yNTZjLTQzN2MtYjhjZC00MDg5ODE1YjA2ZDYifQ.edYhFXm8bqrEfFmIpwfj0rU_0mLfwxPIstvDN74pzWM' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Life standard start all put strong leg mission.","courseId":"f0f641ee-a598-416c-8c0d-375d5272ddd3","maxScore":70,"minScore":17,"orderIndex":45,"description":"Care within morning prove. Someone network house property join hit sign. Court again throughout good trade commercial life.\nCould I teacher. Plant newspaper response notice yet interesting main.","estimatedTime":"3 weeks"}'
