@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU3LjQ1NTUwMCIsInVzZXJfaWQiOiJiZmUyZTJjYS0yOWQwLTQwYjktYTUxZC0wYjlhMDM5NzQzOGMifQ.ddk6HIvUiNP-ZWzDtBbqgQ4nBJ-UBpvp4f4zzjdEOro' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mean since agreement total animal age parent.","courseId":"7b91a92c-bd13-4948-b2a0-d9f41a8b55c3","maxScore":76,"minScore":7,"orderIndex":87,"description":"Reduce him large style finally move. See little lose. End director task foot daughter break.\nDeep without mother plant which guy shake. Early return best age nation. Everyone notice our about.","estimatedTime":"6 weeks"}'

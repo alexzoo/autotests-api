@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Hair outside voice simply impact book.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Today yet of various onto go level. Keep production tell seek style never. Say shoulder assume your throughout fill produce.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 87bb25bd-1e2d-48f0-a057-c93903aba53e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 358e0a18-6814-41bc-b498-272da8881fc0
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

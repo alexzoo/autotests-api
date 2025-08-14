@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjUyLjg5MDY3NyIsInVzZXJfaWQiOiI5OGI3MmM5ZC0xM2RkLTRhNjMtYjhlMy00ZWU3ZWY2MTBjODUifQ.f61Du0rHtVcS05aV36ny011OrBv3HK3VWgZGmC5Pcqc' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Matter hope town fact size nation without.","maxScore":88,"minScore":23,"description":"Run international approach side. Series between feeling time structure. Technology against seek especially rich attorney certain respond.","estimatedTime":"3 weeks","previewFileId":"e08e25d4-e7a3-4e2a-b39d-fd675bb35128","createdByUserId":"98b72c9d-13dd-4a63-b8e3-4ee7ef610c85"}'

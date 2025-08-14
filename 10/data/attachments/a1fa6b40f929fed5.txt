@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/42245611-80b9-4e9a-b9b5-2f4d3a957426' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU0LjMxMzE5NiIsInVzZXJfaWQiOiJjN2U3ZTgwNy00OTZmLTRiNzgtOTMzNi01NTY1NjY4MDJhN2QifQ.9XbCgynr4Q5wy-yRfwWSomJlfJ0NYyIpx0wKiSoT6HE' \
+  -H 'content-length: 232' \
+  -H 'content-type: application/json' \
+  -d '{"title":"While form could half.","maxScore":83,"minScore":18,"description":"Production save interesting tax. Every enter mean sit it approach.\nBall often know bad guess. Particular challenge adult hear.","estimatedTime":"7 weeks"}'

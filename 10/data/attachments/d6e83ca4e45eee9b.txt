@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU2LjE4NDgzMiIsInVzZXJfaWQiOiI4ZWRjMWZmOS1lY2JkLTRiODMtYmFlMS0wZWJlZjgxNmE3ODAifQ.vsT-NsDEVW43f2gqTeCjFOPK5w8BlvBulgbstMpfccA' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Themselves soon least church.","maxScore":85,"minScore":13,"description":"Question usually go much place air. Likely option over surface day measure nice.\nTerm look six operation really. Traditional week term.","estimatedTime":"4 weeks","previewFileId":"5b0cedd3-efb9-4785-bdfd-b50c617360a9","createdByUserId":"8edc1ff9-ecbd-4b83-bae1-0ebef816a780"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU2Ljc3ODIzOSIsInVzZXJfaWQiOiIyNzllZmM1ZS1jODkzLTQxMDctYWFkYi0zMGM4NmYyNTQ4YjMifQ.sQjZvJxsmrmisWNR2IUkxs52gZvVXqTkl3yPQ_jNZc0' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message attack road never single.","maxScore":59,"minScore":18,"description":"Our two by language. Floor single worker I speak take game star.\nLive who mean approach worry size. Laugh movie hear. Support left chance serious.\nThem by everything four.","estimatedTime":"2 weeks","previewFileId":"75c50dee-f92a-42e0-a8da-7a3646d04abf","createdByUserId":"279efc5e-c893-4107-aadb-30c86f2548b3"}'

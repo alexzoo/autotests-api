@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU0LjAzODg1NiIsInVzZXJfaWQiOiIzNThlMGExOC02ODE0LTQxYmMtYjQ5OC0yNzJkYTg4ODFmYzAifQ.Nh45McJgEt-eLVhXh0B69V9UFA6x4NWgjbdRbWjWUac' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hair outside voice simply impact book.","maxScore":81,"minScore":4,"description":"Today yet of various onto go level. Keep production tell seek style never. Say shoulder assume your throughout fill produce.","estimatedTime":"7 weeks","previewFileId":"87bb25bd-1e2d-48f0-a057-c93903aba53e","createdByUserId":"358e0a18-6814-41bc-b498-272da8881fc0"}'

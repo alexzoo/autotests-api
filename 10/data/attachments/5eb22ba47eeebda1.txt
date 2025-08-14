@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU0LjMxMzE5NiIsInVzZXJfaWQiOiJjN2U3ZTgwNy00OTZmLTRiNzgtOTMzNi01NTY1NjY4MDJhN2QifQ.9XbCgynr4Q5wy-yRfwWSomJlfJ0NYyIpx0wKiSoT6HE' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nor senior everything series.","maxScore":84,"minScore":3,"description":"Wish within teach fast course. Drop staff stock physical blood late.\nNews executive them feel begin. Season number until agree staff executive.","estimatedTime":"4 weeks","previewFileId":"039c2cf0-17c3-4bbe-8c00-16c31313a8ed","createdByUserId":"c7e7e807-496f-4b78-9336-556566802a7d"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU0Ljk2NjQ5NSIsInVzZXJfaWQiOiIzMjFhNDE1ZC1lZmZjLTQ1ZTgtOWZmYS01NDhjZDQxODJiN2IifQ.uioAqGg8qFu0MqBKUhW7rM0CHmmQudYJVKNiOd_gIhA' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Candidate kitchen example start nor season with.","maxScore":57,"minScore":2,"description":"Home discover source wide check sing student Congress. Company heart choose fact myself. True move three.\nSoon rate friend. Music defense fall clear family situation individual.","estimatedTime":"8 weeks","previewFileId":"1490a012-c522-4a4d-b2dd-06fd8c605207","createdByUserId":"321a415d-effc-45e8-9ffa-548cd4182b7b"}'

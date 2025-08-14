@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU0Ljk2NjQ5NSIsInVzZXJfaWQiOiIzMjFhNDE1ZC1lZmZjLTQ1ZTgtOWZmYS01NDhjZDQxODJiN2IifQ.uioAqGg8qFu0MqBKUhW7rM0CHmmQudYJVKNiOd_gIhA' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs PM capital any.","courseId":"016b602d-4c81-4d93-abd3-a857e057609a","maxScore":64,"minScore":26,"orderIndex":24,"description":"Hair position poor because author live. Matter majority low factor line. Dark any Mrs firm health many.","estimatedTime":"8 weeks"}'

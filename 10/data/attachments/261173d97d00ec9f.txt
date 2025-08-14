@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjE1OjU1LjU1NTA0OSIsInVzZXJfaWQiOiIxMGE5YmRhMi00NjIyLTRiNTctOWE5Ny1jMjE5NzZmZTc1NjYifQ.LzILcifjPsbHExDMyPnsojKD9O2Lb-E43dHnlGOTnV0' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Western decade reveal.","maxScore":81,"minScore":22,"description":"War decade son really surface price effort those. Stage hotel term peace discover trade even. Own citizen weight kitchen.","estimatedTime":"5 weeks","previewFileId":"b0553ca6-a979-4652-a08d-134001fc2a69","createdByUserId":"10a9bda2-4622-4b57-9a97-c21976fe7566"}'
