@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIyLjU5ODc1NyIsInVzZXJfaWQiOiJlN2U2MTNmNC1lYWZhLTQ1YmEtYWVmNS00MTA5ZWZhZDlmMzUifQ.6skN7xXkP2LZSfgTnzXIMrmM_VcWH7MnXlt-ENYa2x0' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Here hope sea nearly.","maxScore":65,"minScore":23,"description":"Plant ok whose line century break. Explain place edge recently cut I performance. Group skin happen big single country very. Early Congress particularly test sister treat list property.","estimatedTime":"1 weeks","previewFileId":"cf463875-4c06-44fb-be83-11dc235d879b","createdByUserId":"e7e613f4-eafa-45ba-aef5-4109efad9f35"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIwLjAzMTMxMCIsInVzZXJfaWQiOiIwOTUxOTM3NS05Y2ZhLTRhMTgtYTFlMS01OGIwZmQ5MTg2NTAifQ.mqqIT26sOmrsX3tGxMWHwWXAu-hQho6R8O-FX3Iiaoc' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evening throughout you across recognize drop.","maxScore":90,"minScore":13,"description":"Check argue community history investment serious different certainly. It event keep gun Mrs increase.\nWhole lot court purpose skill term daughter save.\nBuy line break same between economy.","estimatedTime":"3 weeks","previewFileId":"0be7d37d-511d-4de8-8377-f1919e9212cf","createdByUserId":"09519375-9cfa-4a18-a1e1-58b0fd918650"}'

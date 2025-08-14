@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/71cbc9a8-5b88-4bef-a182-ba05cdfa223d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIxLjQzNDkyNiIsInVzZXJfaWQiOiIxMzFjOWFjOS1lYTgxLTRiMjEtYTIzYi1mMzRlYzYwNjFiZjUifQ.Axf1BW3k0p89OQqjYH9qNDwU5tLF_YORAwEtQaYaiK0' \
+  -H 'content-length: 210' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Simple lead upon prove try traditional.","maxScore":63,"minScore":12,"description":"Southern thing event toward. Election professor director change in language fund appear.","estimatedTime":"2 weeks"}'

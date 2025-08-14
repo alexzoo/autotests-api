@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIyLjU5ODc1NyIsInVzZXJfaWQiOiJlN2U2MTNmNC1lYWZhLTQ1YmEtYWVmNS00MTA5ZWZhZDlmMzUifQ.6skN7xXkP2LZSfgTnzXIMrmM_VcWH7MnXlt-ENYa2x0' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Material religious sing country tell.","courseId":"334e5f67-4c39-4740-9e7c-3b4138e8913e","maxScore":84,"minScore":21,"orderIndex":5,"description":"Structure authority bed themselves then.\nTask region wrong wonder at claim. Among land prepare always.","estimatedTime":"8 weeks"}'

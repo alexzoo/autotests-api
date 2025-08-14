@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Make GET request to http://localhost:8000/api/v1/exercises/a610b756-fa2c-446a-ab70-62a5b65b0a6d
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises/a610b756-fa2c-446a-ab70-62a5b65b0a6d
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:79 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:55 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to a610b756-fa2c-446a-ab70-62a5b65b0a6d
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Evidence with treatment do soldier candidate.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to da67db8d-fe34-49d6-82f1-b2b07ac63259
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 40
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Little newspaper building production short nearly. Pay talk far money case. Whole order really thought think should image.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

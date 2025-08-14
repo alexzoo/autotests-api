@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIzLjc3NjE5NyIsInVzZXJfaWQiOiJjMGU1OTMzNC0zZGVhLTQzNjktYWY4NC04NzY2MTkyYWY3NzEifQ.jgcP42oRsTvqKLVM_Voc-4Ryep0sVBLD6nymCSEY5MQ' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business black up central red option.","maxScore":69,"minScore":29,"description":"Knowledge as relationship responsibility training television agency. Account several for into all newspaper attack building.","estimatedTime":"8 weeks","previewFileId":"d09ae9d5-e493-4a8b-904a-e561705fea66","createdByUserId":"c0e59334-3dea-4369-af84-8766192af771"}'

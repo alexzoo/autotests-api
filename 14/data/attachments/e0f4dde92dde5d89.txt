@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjI0LjcxMjk1MiIsInVzZXJfaWQiOiJmMjA1ZmRmYi02OGEyLTQ4NzgtYWFlMi0zOGU4ZDBiMWUzZjEifQ.m80bYFbEUAaHUKnaDc17_uURra3Q4BwswVMQ9SdtDL8' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait to single.","maxScore":73,"minScore":8,"description":"Might yet pull town check season. Able book push name address require.\nWin statement group marriage side attention budget perhaps. Bring main by watch factor step. Pattern also suddenly instead.","estimatedTime":"1 weeks","previewFileId":"1b1cff1f-3792-4d50-a1ef-3032c81f2777","createdByUserId":"f205fdfb-68a2-4878-aae2-38e8d0b1e3f1"}'

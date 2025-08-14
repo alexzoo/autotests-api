@@ -1,0 +1,35 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Make GET request to http://localhost:8000/api/v1/courses?userId=09519375-9cfa-4a18-a1e1-58b0fd918650
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=09519375-9cfa-4a18-a1e1-58b0fd918650
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:75 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:67 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:50 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to e3de2c1a-1744-448c-ac31-283693d4b71e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Evening throughout you across recognize drop.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 13
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Check argue community history investment serious different certainly. It event keep gun Mrs increase.
+Whole lot court purpose skill term daughter save.
+Buy line break same between economy.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks
+INFO     FILES_ASSERTIONS:files.py:55 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 0be7d37d-511d-4de8-8377-f1919e9212cf
+INFO     BASE_ASSERTIONS:base.py:36 Check that "url" equals to http://localhost:8000/static/tests/f7d2e305-e97a-4cd0-b62c-7cfd45ed9e55.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "filename" equals to f7d2e305-e97a-4cd0-b62c-7cfd45ed9e55.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:42 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 09519375-9cfa-4a18-a1e1-58b0fd918650
+INFO     BASE_ASSERTIONS:base.py:36 Check that "email" equals to marcusdowns@example.net
+INFO     BASE_ASSERTIONS:base.py:36 Check that "first_name" equals to Kyle
+INFO     BASE_ASSERTIONS:base.py:36 Check that "last_name" equals to Wilson
+INFO     BASE_ASSERTIONS:base.py:36 Check that "middle_name" equals to Steven
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

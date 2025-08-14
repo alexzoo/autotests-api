@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIzLjUwMzI5NiIsInVzZXJfaWQiOiI0OWVkODIzNS03NDU2LTQ2ZTUtOGU3YS05Y2ZlZTNmZDRlNDYifQ.v9HpHG1J4MZqW2ZMilUbi-ZTko5H75lXvrfOZx872eE' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten resource sure protect population enter.","maxScore":74,"minScore":7,"description":"Available six bad art. Seat eat change position success. Glass marriage husband instead beyond.\nSite no every meet approach head available. Method although property job any prepare spend machine.","estimatedTime":"3 weeks","previewFileId":"6cd4bf49-4d6c-4dbd-939a-004e6f4624f9","createdByUserId":"49ed8235-7456-46e5-8e7a-9cfee3fd4e46"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIyLjMyNjU0MSIsInVzZXJfaWQiOiIzODRiZTkwYS0wNjI1LTQ5OTEtYmJmYS01Njk4MmEzNWNiMTMifQ._q7MmB8VAgKRzSCpZQOHluR3B8wFYw8vv3i8dEgK0H0' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Think special could push.","courseId":"5d7e85f3-60f1-4959-b2b2-f85f6ad1512e","maxScore":59,"minScore":9,"orderIndex":2,"description":"Defense right old hot tree girl. City best crime amount. Security choose campaign final religious born.","estimatedTime":"4 weeks"}'

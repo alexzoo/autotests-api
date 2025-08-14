@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIyLjMyNjU0MSIsInVzZXJfaWQiOiIzODRiZTkwYS0wNjI1LTQ5OTEtYmJmYS01Njk4MmEzNWNiMTMifQ._q7MmB8VAgKRzSCpZQOHluR3B8wFYw8vv3i8dEgK0H0' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Education land green law turn every range.","maxScore":65,"minScore":21,"description":"Expert other rock enough since pressure would party. House him cell Mr participant.\nPer adult onto. Cultural television increase from beyond front. Spend chance party nearly together.","estimatedTime":"1 weeks","previewFileId":"eef6edfb-3034-4bfa-865d-2470eb0074f5","createdByUserId":"384be90a-0625-4991-bbfa-56982a35cb13"}'

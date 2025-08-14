@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIzLjUwMzI5NiIsInVzZXJfaWQiOiI0OWVkODIzNS03NDU2LTQ2ZTUtOGU3YS05Y2ZlZTNmZDRlNDYifQ.v9HpHG1J4MZqW2ZMilUbi-ZTko5H75lXvrfOZx872eE' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence with treatment do soldier candidate.","courseId":"da67db8d-fe34-49d6-82f1-b2b07ac63259","maxScore":76,"minScore":25,"orderIndex":40,"description":"Little newspaper building production short nearly. Pay talk far money case. Whole order really thought think should image.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDIwOjA2OjIxLjE2MzEyOCIsInVzZXJfaWQiOiIxMzdmYjI2OC1iMjRiLTQxNDQtYWQyNS0xOTMyOGY3YjE0ZTQifQ.38idJEUueHqp7fY-_aJTuuvBKlxt6VOrRcjOFhXH-TE' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Several four word media memory realize risk.","maxScore":81,"minScore":25,"description":"Clear nice day discuss speak reason affect. Good respond those water. Each option choose he reach issue skin.\nIdentify person seven politics process. Report bad nothing her response role.","estimatedTime":"7 weeks","previewFileId":"0e54a77b-5c0a-4c5d-9931-cdc3c13341d5","createdByUserId":"137fb268-b24b-4144-ad25-19328f7b14e4"}'
