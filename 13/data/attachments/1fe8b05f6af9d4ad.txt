@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/6ca0a6ba-0a4a-484f-9e67-858a37100011' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjM5Ljk3MjE4OCIsInVzZXJfaWQiOiIzZTI1ZmJmZi04NTc2LTQ5MmUtOWYzMi0yNmVjMWIxZGU5OGUifQ.5sUtGFGznyFKZY5yQF80kj4WHItlDkqHRm61S2c7VA4' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Throughout growth necessary lot tend.","maxScore":68,"minScore":22,"orderIndex":65,"description":"Product more answer agreement. Point community break pretty similar tax serve already. Certain fire second think sound.","estimatedTime":"6 weeks"}'

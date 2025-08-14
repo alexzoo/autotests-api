@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjQxLjgyMDgxOSIsInVzZXJfaWQiOiIzMzdmNzJiNC1lMTlhLTQ5M2YtYTFjOC1hZGVlMGE4MTg2YTEifQ.sQECrw7NM472CHXVT2Ucr-NlEbvOY_Tf70d48-oXIls' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Country at store protect including.","maxScore":68,"minScore":8,"description":"Last especially live contain black health. Card possible employee knowledge. Never until hope.\nStuff moment agent deal especially determine. Film worry hand camera across page few.","estimatedTime":"1 weeks","previewFileId":"b91435a3-f3ff-4dc7-a8a6-749b2ee65676","createdByUserId":"337f72b4-e19a-493f-a1c8-adee0a8186a1"}'

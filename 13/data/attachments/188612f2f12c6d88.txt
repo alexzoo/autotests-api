@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjM5Ljk3MjE4OCIsInVzZXJfaWQiOiIzZTI1ZmJmZi04NTc2LTQ5MmUtOWYzMi0yNmVjMWIxZGU5OGUifQ.5sUtGFGznyFKZY5yQF80kj4WHItlDkqHRm61S2c7VA4' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Keep drive especially then natural someone network.","maxScore":76,"minScore":13,"description":"Especially language piece ahead around start. Way main attorney trip thank.\nEarly firm just. I analysis call break career measure house. Soon operation parent station daughter attention radio.","estimatedTime":"5 weeks","previewFileId":"14a595af-9c6b-4ee0-bd32-fd818b4b0530","createdByUserId":"3e25fbff-8576-492e-9f32-26ec1b1de98e"}'

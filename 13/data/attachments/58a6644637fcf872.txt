@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjQwLjU1NDc3NyIsInVzZXJfaWQiOiJhZDA1M2U2OC1lNmMyLTQ2NTgtOThhMC1hMGM2ZDE2MDg4MjkifQ.1ZJ1JTxu8lYnI2vMr6Zk0KAEuzLsT9NJVN4FUo5OPbI' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Key skin show anything store.","maxScore":61,"minScore":3,"description":"Avoid participant wind town arrive officer. Baby news indeed generation likely nice.\nMight same against share. She admit water. Prepare piece region start evidence style.","estimatedTime":"10 weeks","previewFileId":"e22d4831-3727-4221-9c27-3601d3d1406f","createdByUserId":"ad053e68-e6c2-4658-98a0-a0c6d1608829"}'

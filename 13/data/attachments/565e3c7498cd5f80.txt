@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/55aef22d-f5df-4191-8cc8-948d8f1cdbee' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjM4LjcxNzkxOSIsInVzZXJfaWQiOiI3MmY4N2ExMC1iMjRlLTRiZTEtYTI3ZC05ZDZiOTIwYTRmYWMifQ.GO0-v3TzFVwbMVYjeGtZJxbIbJELSyaO8KAUMKAuW2I' \
+  -H 'content-length: 235' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Break ball fly.","maxScore":98,"minScore":14,"description":"Certainly risk election chance believe situation nature budget. Member decade item only create. Gas suggest central site note ok medical.","estimatedTime":"4 weeks"}'

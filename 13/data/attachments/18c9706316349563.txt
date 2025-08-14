@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjQxLjIwNjQzNCIsInVzZXJfaWQiOiJmNTQ0MzJlNS1kMzVlLTRmYjEtOTc2MC05ZjBmNGUzOGQ0ZjUifQ.pXLN4jtENIcwQiaLpb8Z6aChtEmqVZBDNyylssuVPn8' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Instead she language by individual.","maxScore":74,"minScore":20,"description":"Prepare begin mother edge research right city. Top myself thus specific goal continue station. Then pressure bed nation month.","estimatedTime":"4 weeks","previewFileId":"100b56f4-6646-4948-8993-3464cf060646","createdByUserId":"f54432e5-d35e-4fb1-9760-9f0f4e38d4f5"}'

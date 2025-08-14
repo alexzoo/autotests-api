@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjQxLjIwNjQzNCIsInVzZXJfaWQiOiJmNTQ0MzJlNS1kMzVlLTRmYjEtOTc2MC05ZjBmNGUzOGQ0ZjUifQ.pXLN4jtENIcwQiaLpb8Z6aChtEmqVZBDNyylssuVPn8' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Station sell work other fact around model.","courseId":"c97ccdf7-923d-470d-9935-8be1a5e00adc","maxScore":74,"minScore":21,"orderIndex":91,"description":"Prevent item wrong activity service. Job another seven whether like son.\nKey final he admit system outside. Stand wife amount few perhaps. Face box by summer sell long.","estimatedTime":"3 weeks"}'

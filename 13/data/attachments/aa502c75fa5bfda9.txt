@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE5OjQ2OjM4LjQ0MzEwNSIsInVzZXJfaWQiOiI4ZWNmNjM3Mi00YTkwLTRkODEtYjlhYS03MDU4MGFmODMzYmUifQ.AWaLgdS_VGq6aNiG_9HWWeNAt-iFIteD_CmqEUHkaj4' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At scientist collection statement sit.","maxScore":83,"minScore":30,"description":"May little student least. Charge ready kind boy at. Grow wish beat low modern garden call.","estimatedTime":"1 weeks","previewFileId":"86626540-d234-467a-8200-13e0c0eb1b1e","createdByUserId":"8ecf6372-4a90-4d81-b9aa-70580af833be"}'
