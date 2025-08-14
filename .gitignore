@@ -20,6 +20,12 @@ coverage.xml
 htmlcov/
 .tox/
 
+# Coverage results
+coverage-results
+coverage-report.json
+coverage-history.json
+coverage.html
+
 # Linting
 .ruff_cache/
 
