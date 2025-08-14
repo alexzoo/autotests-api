@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjIyOjIzLjQ5OTQwMCIsInVzZXJfaWQiOiJkNTI1YTU1YS03MGIxLTRkNTYtOGRlMS01YWZiYzFlZjNkNmQifQ.GoQUYb3CERiR9vnZhI0u1qj-Zo05nzP9yQlSz9ZV_yo' \
+  -H 'content-length: 297' \
+  -H 'content-type: application/json' \
+  -d '{"title":"The student news kid.","courseId":"dc9dfbaa-623e-415e-999c-e1a12fb68a76","maxScore":70,"minScore":7,"orderIndex":90,"description":"Exist grow eat marriage.\nMoment final position usually.\nPoint lose include prove. Short star about woman.\nPartner lose point.","estimatedTime":"6 weeks"}'

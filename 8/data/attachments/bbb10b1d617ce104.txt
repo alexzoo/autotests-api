@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjIyOjI0LjA4MDY2NiIsInVzZXJfaWQiOiI3NTE3MzIxNy1iYmZlLTQxYWItODhmZC1iNjRiNzQyN2FmNTcifQ.wX3LnNbe8U8DQfG905bC2xnoFEGAUkCT7K9hG0y7gZA' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Single produce evidence part mention debate.","courseId":"5d645aa3-ee75-495a-a3f2-cdb8d132e3bb","maxScore":91,"minScore":20,"orderIndex":26,"description":"There place receive. Evidence deal surface year opportunity help consumer.\nFocus fact expect not. Drug far card room for. Child quickly matter doctor.","estimatedTime":"1 weeks"}'

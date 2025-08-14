@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjIyOjIwLjQ0MTQxNCIsInVzZXJfaWQiOiJiOTg5NzY1OS05NzMxLTQ4N2EtOGJkMi0xZTM0M2E2MTM1Y2QifQ.EU7KfZBPgkiNf_eXrHneo2qoUloVm9y2sklsVaEDk7A' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society past president pick realize something.","maxScore":66,"minScore":11,"description":"Get whether weight minute. Street media no detail project. Job organization board receive role find amount.","estimatedTime":"7 weeks","previewFileId":"0dbe9182-6df6-4d4b-a7dc-0ecb6425fa78","createdByUserId":"b9897659-9731-487a-8bd2-1e343a6135cd"}'

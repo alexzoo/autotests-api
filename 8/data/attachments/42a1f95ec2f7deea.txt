@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjIyOjE5Ljg0MjA1MCIsInVzZXJfaWQiOiI1ZGM1ZGM0ZS1kYzExLTQ4YzktYWM4Yi02ZDgyODllYTY3ODIifQ.QiCUSDzA73OAkg8vbGEHhoz2RPnOgb6PrXSsXhVQi-s' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Doctor nature somebody keep say safe.","maxScore":77,"minScore":9,"description":"Check good test simple treatment he. Book check onto.\nBed there relate fall. If hope response price analysis foot rate. Than choice five.","estimatedTime":"2 weeks","previewFileId":"bb14e7d1-aff4-4ad3-9c4a-c72abb7b2eeb","createdByUserId":"5dc5dc4e-dc11-48c9-ac8b-6d8289ea6782"}'

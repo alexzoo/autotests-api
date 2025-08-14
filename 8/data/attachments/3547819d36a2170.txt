@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjIyOjIyLjI2ODQyOCIsInVzZXJfaWQiOiJkZWJmZDdlNC00NGE5LTRlMjAtYjJmOS02MmFlZGZmNWVjOTQifQ.jHctzvQvYLbqsOLPD25v4JvONV3p6jfT5cQ6g4B6noo' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Case never quality who better.","maxScore":95,"minScore":15,"description":"Authority also chance enter no. Time education assume should book now wide. Body feeling small team.\nMoney country manager church player individual wait event. Option technology bad action.","estimatedTime":"2 weeks","previewFileId":"651167a9-c901-402b-bc82-a687366c6448","createdByUserId":"debfd7e4-44a9-4e20-b2f9-62aedff5ec94"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjIyOjIxLjAzNjgyMyIsInVzZXJfaWQiOiIwOTM2N2RhNy1iNTQzLTRhOWItOTI5Ny1iOTA5YWNlZDY4Y2QifQ.CFbU0QfBkGB56jksUDY01p1EeDqQBv7XVpzwtZvPnII' \
+  -H 'content-length: 359' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final type size work short face.","maxScore":66,"minScore":29,"description":"Order peace candidate sell cold maintain final. Rise collection several lose western. Special team reveal could report brother talk.","estimatedTime":"9 weeks","previewFileId":"7fa9346a-b9c9-4c91-acc2-1b0042bd0160","createdByUserId":"09367da7-b543-4a9b-9297-b909aced68cd"}'

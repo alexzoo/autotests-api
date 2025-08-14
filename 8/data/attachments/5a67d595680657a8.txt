@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjIyOjI0LjA4MDY2NiIsInVzZXJfaWQiOiI3NTE3MzIxNy1iYmZlLTQxYWItODhmZC1iNjRiNzQyN2FmNTcifQ.wX3LnNbe8U8DQfG905bC2xnoFEGAUkCT7K9hG0y7gZA' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During back toward within describe listen middle once.","maxScore":63,"minScore":19,"description":"From current great road impact the build. Few window tend ask.\nYoung hard whom begin eye morning usually remain. Treat thus local man program.","estimatedTime":"4 weeks","previewFileId":"7d8f195e-343b-47f0-8b8f-b4952fddc66c","createdByUserId":"75173217-bbfe-41ab-88fd-b64b7427af57"}'
