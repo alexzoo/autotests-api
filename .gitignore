@@ -35,6 +35,7 @@ htmlcov/
 .claude/
 .ai/
 cursor-tutor/
+CLAUDE.md
 
 # Temporary files
 temp/
