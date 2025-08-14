@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjA3LjY3ODU0NyIsInVzZXJfaWQiOiJlODZkMDg1ZC1iZGM5LTQ2ZjYtYWQ3Yi1hY2EwMGU2NjdiZGMifQ.-z-aF8ZgPRiUpxdevTXngMyFRA_mtWQ8S1HcLWkgn1M' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Event white remain public floor question leader each.","maxScore":89,"minScore":7,"description":"Entire whether ok hand class. Third side enter skill buy. Hot generation best vote Mr many present.","estimatedTime":"10 weeks","previewFileId":"cd3b6d88-4473-4961-9fbf-30866ddbaea6","createdByUserId":"e86d085d-bdc9-46f6-ad7b-aca00e667bdc"}'

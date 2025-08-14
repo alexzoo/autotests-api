@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjExLjQ4MDIyOSIsInVzZXJfaWQiOiI0ODhhN2EzMi0zOWNiLTQzNGEtYjI2Ny0xZjU2ZDZhOGI1NzgifQ.m6Z6nhDZI7mFByYIih3qBd2BDRCp4MmAgdRyEFArgEA' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Blood my approach ability.","maxScore":95,"minScore":26,"description":"Camera staff marriage lawyer. Health culture amount.\nYear data store report lay movie. Radio where test other group car fly.","estimatedTime":"6 weeks","previewFileId":"900682fe-c972-435f-b597-a25f98dfe00b","createdByUserId":"488a7a32-39cb-434a-b267-1f56d6a8b578"}'

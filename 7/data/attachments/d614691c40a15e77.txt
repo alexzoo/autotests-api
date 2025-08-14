@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjEyLjQxMzQ4OCIsInVzZXJfaWQiOiJjY2MxMmU0OS0yNWU5LTQwNzgtOTNjNy0wYjczZTQwZTE0MzUifQ.fUi23ALmPIXL8mb1ERWe3DgA6e48rOmH-WgS9qP9_Pw' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Current perhaps ever though friend trial.","maxScore":75,"minScore":1,"description":"However trade natural evidence reality serve happen. Establish determine run others.","estimatedTime":"8 weeks","previewFileId":"e95cb058-60f8-427d-bc5f-fa66376a4350","createdByUserId":"ccc12e49-25e9-4078-93c7-0b73e40e1435"}'

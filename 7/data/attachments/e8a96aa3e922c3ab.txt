@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjExLjIwNzAwNCIsInVzZXJfaWQiOiJiOWNiZDdiMS00MzViLTRhZWEtYTFjOS1mOWU1MWZlZDE4ZWQifQ.atzNZEZQ4v_qHXWYKKbu1SEKav2-PNVjv_GwLi656Lg' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr you now step cover write.","courseId":"5ab4ddd4-0bfd-469f-9076-16c65c0f3a09","maxScore":50,"minScore":10,"orderIndex":77,"description":"Report partner strong special. Financial certainly attack attention.\nView south fly teach manager party deep.\nSame stay spend.\nBeyond book area write. Management leave set.","estimatedTime":"4 weeks"}'

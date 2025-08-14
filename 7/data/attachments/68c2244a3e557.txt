@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjA5LjEwNTA2MyIsInVzZXJfaWQiOiJhY2I5ZDY5Ny0yYzI3LTQ4MmUtODE0NS0wYmU1ZDliNjQ0NmIifQ.l3BvTrl1q0nUvSQ9dQhdLOthSUyux7Mq4exb4xRbkd8' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Safe adult ball song event third drop.","maxScore":78,"minScore":30,"description":"Grow spring first east Republican try pressure. Through nation represent know opportunity scientist.","estimatedTime":"7 weeks","previewFileId":"a1c42f7a-e6e0-4914-b336-52b816dca3b8","createdByUserId":"acb9d697-2c27-482e-8145-0be5d9b6446b"}'

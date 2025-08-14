@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjEwLjAxNDM4NiIsInVzZXJfaWQiOiJjYmNkNGQ0ZC1jYjJmLTQzN2UtODc3MS04Y2ZkMjcwYmM0NDUifQ.syH9M-R8PCP63WqMAyn4Y4E44nK0jabk0-aVn04Xn_U' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cup doctor guess woman.","maxScore":84,"minScore":10,"description":"Special rule for. Hotel religious person pattern.\nOn move available entire military whom. Actually or coach add establish brother catch may. Likely check out general clearly.","estimatedTime":"9 weeks","previewFileId":"cf95e644-7ad2-4e83-9756-050347874471","createdByUserId":"cbcd4d4d-cb2f-437e-8771-8cfd270bc445"}'

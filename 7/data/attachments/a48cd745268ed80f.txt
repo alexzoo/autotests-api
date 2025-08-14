@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjA4LjgzMTE1MyIsInVzZXJfaWQiOiIyY2IxZDI1Ni1iNDU1LTRjZjUtODAyYi04YjI4NGY3ZTgwZGIifQ.NhgVG_5sLDnM2HN6HMalvJOu48xt_VRiUHZbPVnwREM' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Would past capital home try part improve.","maxScore":76,"minScore":27,"description":"Bag knowledge consider teacher. Seek full key then list. Major with high choose sea without throughout. Skin friend glass us.\nItself similar office summer thank do. Open month this church common.","estimatedTime":"3 weeks","previewFileId":"2fffe016-4bc7-4bb8-85c0-e0bad242d393","createdByUserId":"2cb1d256-b455-4cf5-802b-8b284f7e80db"}'

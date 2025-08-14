@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjEwLjI4OTE0MSIsInVzZXJfaWQiOiIwMTZkNjBlOS0wZDJlLTQ0NzAtYWY4MS0xNGYyMDVjMjlhYjMifQ.nMYMHZiBAjVbBic-RwIWbm2Y1PIDsGeDQv0dGzT_1V4' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"During kid would yes before.","maxScore":65,"minScore":14,"description":"Clear positive bad ready wide against ok both. Suggest up single model. Individual type mean and rule agreement loss.\nHappy usually spring pass. Will only tell rule sport.","estimatedTime":"5 weeks","previewFileId":"4ec819ee-f25a-4744-85a9-f1ed18f7e1c9","createdByUserId":"016d60e9-0d2e-4470-af81-14f205c29ab3"}'

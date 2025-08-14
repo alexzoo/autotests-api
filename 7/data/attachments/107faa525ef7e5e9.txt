@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/bda2c582-f3f5-4c17-abc0-77964fa1a51c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjA5LjEwNTA2MyIsInVzZXJfaWQiOiJhY2I5ZDY5Ny0yYzI3LTQ4MmUtODE0NS0wYmU1ZDliNjQ0NmIifQ.l3BvTrl1q0nUvSQ9dQhdLOthSUyux7Mq4exb4xRbkd8' \
+  -H 'content-length: 222' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Old expect program deep.","maxScore":66,"minScore":29,"description":"Store upon management not accept interest. Cause nation past recent until space change. Kid citizen lead long want.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDA5OjEwOjExLjIwNzAwNCIsInVzZXJfaWQiOiJiOWNiZDdiMS00MzViLTRhZWEtYTFjOS1mOWU1MWZlZDE4ZWQifQ.atzNZEZQ4v_qHXWYKKbu1SEKav2-PNVjv_GwLi656Lg' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without commercial per war.","maxScore":51,"minScore":7,"description":"Range reveal offer key finally magazine science. Project anything stay even wear approach wonder.\nMedia if party. Front movement tax attention. Paper body night test. Alone smile individual.","estimatedTime":"3 weeks","previewFileId":"5c62cb4a-a1c9-4021-8b11-e899886d0d25","createdByUserId":"b9cbd7b1-435b-4aea-a1c9-f9e51fed18ed"}'
