@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM2LjkyNzAzMCIsInVzZXJfaWQiOiI4YWQ4NDBhOS0yNjM2LTQxMzYtODE5Zi04ZGI4ZTk3NjAyZjQifQ.PcQxXhyyN6gtlhM8Ewz-pTsO_gefW6UeHigPYWYdHiA' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sound good under help.","maxScore":52,"minScore":7,"description":"Daughter hear degree office. Left medical action network.\nTreat first language result director. Region avoid section without wrong however.","estimatedTime":"7 weeks","previewFileId":"0aa4d893-7433-495d-8a89-5d43c1fd0544","createdByUserId":"8ad840a9-2636-4136-819f-8db8e97602f4"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM4Ljc1ODE5OSIsInVzZXJfaWQiOiI4MTJjNjNkYi1mZWM3LTQyODEtYTA4OS1hNDQwZmZiZjMwMjcifQ.sJqmAKXIFCZpGEgTaihWaBvm4x981x02t_7u7rAEmh8' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Challenge dog if image appear.","maxScore":57,"minScore":20,"description":"Beat firm listen allow. Stand reflect rate behavior.\nGo space quality serious clear need green. Table measure side learn property arm. American resource although it.","estimatedTime":"9 weeks","previewFileId":"611cf9ba-ebb3-49f8-bed5-a886f5f22af5","createdByUserId":"812c63db-fec7-4281-a089-a440ffbf3027"}'

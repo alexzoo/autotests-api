@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM4LjE1MTc1MCIsInVzZXJfaWQiOiJkZDY3MDkzNy0zODJmLTQ4NDgtODQ1Mi1kZDJiMzc3OTBkYjgifQ.BX0NnHawroLZduIwlE_uS6v1UGCp2-BTGSN3D-xtlQo' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Participant voice condition situation never team.","courseId":"368bb16d-9382-4ce4-84e6-c5123cc1253d","maxScore":58,"minScore":6,"orderIndex":43,"description":"Best draw enjoy matter attack tax. Want list cultural consumer amount child white. Free pretty medical develop although entire remember state. Call campaign the population phone half.","estimatedTime":"3 weeks"}'

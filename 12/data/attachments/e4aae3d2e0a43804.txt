@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM3LjUxMDY4OCIsInVzZXJfaWQiOiJkMDM2YjM5Mi03MjhkLTRkZDgtOTYyYy01MzdkYTBiN2IxOTYifQ.5UiEjcnxyWxAizai4DrzJIMdRCtvbRkSe2r0Kz8jiVE' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prepare catch receive property toward group change.","maxScore":69,"minScore":28,"description":"Action type another visit. Evening people perform company student.\nHowever speak present involve drug friend. Trial measure although painting tree sometimes.","estimatedTime":"10 weeks","previewFileId":"f971d7c1-2cbd-4fbd-b655-6af05f3cee18","createdByUserId":"d036b392-728d-4dd8-962c-537da0b7b196"}'

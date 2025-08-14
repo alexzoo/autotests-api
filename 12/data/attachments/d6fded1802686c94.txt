@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM1LjcwMDM2MSIsInVzZXJfaWQiOiIxN2U0NzNkNS0wOWVjLTQ2ZDktODRkMi1mMjY3ZjI2ZmZkNTAifQ.DvAan_xFSVvADOfZugbSMNIuqCcCYzJYO1dUW7UgM0M' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Activity age Congress year both dog.","maxScore":95,"minScore":25,"description":"Customer radio ever agency. Their reason stand television power.\nAgency hand doctor far new early home. Worker team see team set red occur.\nTime young song myself. Eye just day market.","estimatedTime":"10 weeks","previewFileId":"4fa22091-237e-4365-bbcb-c0007fe12d8e","createdByUserId":"17e473d5-09ec-46d9-84d2-f267f26ffd50"}'

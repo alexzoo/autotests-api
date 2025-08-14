@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM2LjI4NTE3MyIsInVzZXJfaWQiOiIzOGNmM2FjNC1kNGU3LTQyNjctODJkNy0wYzg1ZDU0OWE1MDAifQ.io735RZLHcIzYUvO6tI0jwZDvF0PpKNsWJZUJ9MyaA0' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wait only choice soldier end.","maxScore":80,"minScore":20,"description":"Bar nor effort toward. Several buy week hour need common three option.\nPopulation culture would season more. Government vote explain knowledge.","estimatedTime":"10 weeks","previewFileId":"782acf71-856f-49a7-813c-f62d577b3406","createdByUserId":"38cf3ac4-d4e7-4267-82d7-0c85d549a500"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0c7814a6-83fa-4e61-af8d-e54f9c8c1c97' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM1LjcwMDM2MSIsInVzZXJfaWQiOiIxN2U0NzNkNS0wOWVjLTQ2ZDktODRkMi1mMjY3ZjI2ZmZkNTAifQ.DvAan_xFSVvADOfZugbSMNIuqCcCYzJYO1dUW7UgM0M' \
+  -H 'content-length: 229' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth billion most however.","maxScore":67,"minScore":13,"description":"Explain indeed above here indicate who. Perform dream improve side study present your catch. Medical exist once value.","estimatedTime":"10 weeks"}'

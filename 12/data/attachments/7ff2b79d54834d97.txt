@@ -1,0 +1,21 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Make PATCH request to http://localhost:8000/api/v1/exercises/19e01c9d-f271-40c8-99e6-766382ad1099
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/exercises/19e01c9d-f271-40c8-99e6-766382ad1099
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:96 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Guy alone debate during theory shoulder network.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 1
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Painting any character rock attention debate thus. Collection issue deal control medical guess. Your fact property follow positive.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 4 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

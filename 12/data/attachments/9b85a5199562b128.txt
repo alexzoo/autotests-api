@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Statement already movie admit great crime third bag.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 88
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Unit life media test even size character. Two range involve among easy either prevent.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 710ee7b3-102a-4bd9-af3b-0df50513230e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 97b8856a-8fed-43fc-a59a-a97466fbc2c9
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

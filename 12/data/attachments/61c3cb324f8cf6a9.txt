@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM4LjE1MTc1MCIsInVzZXJfaWQiOiJkZDY3MDkzNy0zODJmLTQ4NDgtODQ1Mi1kZDJiMzc3OTBkYjgifQ.BX0NnHawroLZduIwlE_uS6v1UGCp2-BTGSN3D-xtlQo' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Good science exactly.","maxScore":64,"minScore":28,"description":"Everything region its ball in group. Class it program. Almost money young section wish.\nCut foreign majority success left tough agree. Do performance western write consumer during wife.","estimatedTime":"9 weeks","previewFileId":"5e28793b-e8f2-415c-a086-91713f3378b6","createdByUserId":"dd670937-382f-4848-8452-dd2b37790db8"}'

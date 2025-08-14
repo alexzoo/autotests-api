@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE0VDE2OjQ2OjM1LjExNTE2MyIsInVzZXJfaWQiOiI5N2I4ODU2YS04ZmVkLTQzZmMtYTU5YS1hOTc0NjZmYmMyYzkifQ.18a5U-lC6Nmh0fw_vp9Jgd3V0XN4EOgZTwdgzbi-TJQ' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Statement already movie admit great crime third bag.","maxScore":88,"minScore":9,"description":"Unit life media test even size character. Two range involve among easy either prevent.","estimatedTime":"9 weeks","previewFileId":"710ee7b3-102a-4bd9-af3b-0df50513230e","createdByUserId":"97b8856a-8fed-43fc-a59a-a97466fbc2c9"}'
