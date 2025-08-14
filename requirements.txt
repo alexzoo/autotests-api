@@ -8,3 +8,4 @@ pydantic-settings==2.8.1
 pytest==8.3.5
 pytest-rerunfailures==15.0
 pytest-xdist==3.6.1
+swagger-coverage-tool==0.27.0
