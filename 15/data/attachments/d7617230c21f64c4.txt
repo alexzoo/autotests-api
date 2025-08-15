@@ -1,0 +1,34 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Make GET request to http://localhost:8000/api/v1/courses?userId=4274983a-0cf1-4e9e-9a39-d796d1af330c
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=4274983a-0cf1-4e9e-9a39-d796d1af330c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:75 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:67 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:50 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to f9349975-5a98-417d-b0db-8d8d088bd660
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Police better east million receive.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Head develop practice poor. Do for company start option.
+Than career girl his organization kind let. Respond federal despite operation practice fast hard.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 3 weeks
+INFO     FILES_ASSERTIONS:files.py:55 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to a53a2d27-dc10-46d2-8867-3393634c744e
+INFO     BASE_ASSERTIONS:base.py:36 Check that "url" equals to http://localhost:8000/static/tests/71c34e96-74de-4e4a-9bfb-4a6ea4dbd244.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "filename" equals to 71c34e96-74de-4e4a-9bfb-4a6ea4dbd244.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:42 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 4274983a-0cf1-4e9e-9a39-d796d1af330c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "email" equals to haynesstefanie@example.com
+INFO     BASE_ASSERTIONS:base.py:36 Check that "first_name" equals to Alexis
+INFO     BASE_ASSERTIONS:base.py:36 Check that "last_name" equals to Evans
+INFO     BASE_ASSERTIONS:base.py:36 Check that "middle_name" equals to Jose
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

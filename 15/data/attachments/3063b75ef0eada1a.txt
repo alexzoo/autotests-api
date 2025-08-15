@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjQwLjA3NTI3MiIsInVzZXJfaWQiOiIwMzU0ODQ4MC0zOGE1LTRhYTItYWQ3NS1hNGZiOTI5ZjNlZTAifQ.1b1TynOAr2_Q0mxCJwIgokHsRfKr0Kld5Wjdmw9j6Sk' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already senior wish enough miss.","maxScore":74,"minScore":21,"description":"Only whole nation black property clear see probably. Prepare owner customer check interview.","estimatedTime":"9 weeks","previewFileId":"64039aa7-cf78-48fe-87d7-e9e535c66ec5","createdByUserId":"03548480-38a5-4aa2-ad75-a4fb929f3ee0"}'

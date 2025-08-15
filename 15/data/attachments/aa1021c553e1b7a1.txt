@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjQxLjI1MDMzNyIsInVzZXJfaWQiOiI5NWMzYjFiZC03Yzg0LTRjMTQtYTI0OC1iZjAwYjkyNjU4N2MifQ.LVH6KBQjQPEmVz3HCGnK3UK48ibojorjYyca7JeMZuc' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beyond part alone.","maxScore":75,"minScore":8,"description":"White fund development language our across head. Project method growth have number but see.\nFeel her hope cost eye. Fast right central set side remember today. Or skin case able citizen catch city.","estimatedTime":"3 weeks","previewFileId":"e6e794ea-025a-45f7-9bda-2cab7347c818","createdByUserId":"95c3b1bd-7c84-4c14-a248-bf00b926587c"}'

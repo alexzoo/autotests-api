@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjM4LjY2MDMxMCIsInVzZXJfaWQiOiI0Mjc0OTgzYS0wY2YxLTRlOWUtOWEzOS1kNzk2ZDFhZjMzMGMifQ.wDnDEqKlNFd_guZYRmTHXfkcjba6nIYJotzPJNKn94w' \
+  -H 'content-length: 385' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Police better east million receive.","maxScore":92,"minScore":14,"description":"Head develop practice poor. Do for company start option.\nThan career girl his organization kind let. Respond federal despite operation practice fast hard.","estimatedTime":"3 weeks","previewFileId":"a53a2d27-dc10-46d2-8867-3393634c744e","createdByUserId":"4274983a-0cf1-4e9e-9a39-d796d1af330c"}'

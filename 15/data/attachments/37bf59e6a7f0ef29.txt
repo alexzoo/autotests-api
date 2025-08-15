@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjQzLjM4NjY0NSIsInVzZXJfaWQiOiJmMjdlNWRmOC0yODFiLTQwMzgtYmIyOC0yODdiNzNiZjVlYzAifQ.wIEa8Z-Vm7tuHz6FkQOAbz4plJifYlVtTPK0fOKgiJk' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Remain dinner least try camera.","courseId":"b32401ff-e791-4f9b-8459-bdf97f8c151d","maxScore":66,"minScore":5,"orderIndex":25,"description":"Dinner without it bill right.\nPlan if number. Pretty enter record dinner scene find.\nSecurity night into price. Movie college spring scientist feeling.","estimatedTime":"8 weeks"}'

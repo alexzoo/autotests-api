@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjQwLjk3NjQ2NCIsInVzZXJfaWQiOiJmZmVjOGI0OC0yNzg4LTQ1YjItYWRiNS1lMjk2OGE4MWI4MmQifQ.1ALZYcBhx_WfJaNpy-hLbp-RiLbSyvDa5158wvRbH74' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Note well someone.","maxScore":81,"minScore":4,"description":"Source audience believe standard kid walk traditional. Defense history role option go.\nSmile create about much. Strong expert development note. Collection goal argue least nature fill.","estimatedTime":"4 weeks","previewFileId":"9b543ca3-b766-4ee9-9ad2-1367e0ad1fed","createdByUserId":"ffec8b48-2788-45b2-adb5-e2968a81b82d"}'

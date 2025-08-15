@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjQyLjQzNzU1MSIsInVzZXJfaWQiOiJmOTRkOTY3NS1jZTljLTQ5N2YtYjI3Zi0xMWZkY2Q5MTE5NzQifQ.snAQsAQPJ6gg9Xj-WiexNw3iSyXHoCouRHDh7tOwbtc' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy today particularly force doctor few represent.","maxScore":66,"minScore":3,"description":"Rest leave car. Five moment according thousand white less. This citizen ball role remain discussion.\nDeep would available make reflect south air.","estimatedTime":"5 weeks","previewFileId":"7a9f9166-14f9-4153-87be-c3d8bbbd9e2e","createdByUserId":"f94d9675-ce9c-497f-b27f-11fdcd911974"}'

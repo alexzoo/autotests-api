@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjM5LjgwMTg0NiIsInVzZXJfaWQiOiJkZGU4MDA5Ny00MDZiLTQ0OGQtYjk3Ni05NjdlOGUwOGVjMTgifQ._FyFTsi-2qnS69p-xtK8fPFFRvPPU01RUvDrn7jYA20' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs bed eye pick street fill if.","maxScore":89,"minScore":21,"description":"Region citizen take. Artist economy make attack western set.\nSimple kind across really police support yeah. History possible large consider throughout the control action.","estimatedTime":"3 weeks","previewFileId":"f56b5a2e-df2d-4743-9418-50aa93a0b2f6","createdByUserId":"dde80097-406b-448d-b976-967e8e08ec18"}'

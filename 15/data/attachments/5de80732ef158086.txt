@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjQyLjQzNzU1MSIsInVzZXJfaWQiOiJmOTRkOTY3NS1jZTljLTQ5N2YtYjI3Zi0xMWZkY2Q5MTE5NzQifQ.snAQsAQPJ6gg9Xj-WiexNw3iSyXHoCouRHDh7tOwbtc' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ten toward baby attention.","courseId":"8a235746-f021-4560-b27c-763d0202d5ab","maxScore":74,"minScore":7,"orderIndex":62,"description":"Behavior sea bag name anyone.\nTonight happen unit fire.\nAsk near recently however financial technology. Play community rate.","estimatedTime":"5 weeks"}'

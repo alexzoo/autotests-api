@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjM5OjQzLjM4NjY0NSIsInVzZXJfaWQiOiJmMjdlNWRmOC0yODFiLTQwMzgtYmIyOC0yODdiNzNiZjVlYzAifQ.wIEa8Z-Vm7tuHz6FkQOAbz4plJifYlVtTPK0fOKgiJk' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Two price lay class nice little.","maxScore":66,"minScore":3,"description":"Standard story power quickly blood. Must factor improve to star both enter.\nNewspaper stay north factor. Sit cause why color.\nPositive ok former. After suffer question from record small town.","estimatedTime":"9 weeks","previewFileId":"5f93c785-6c01-4cc4-a3ff-27ae656ba159","createdByUserId":"f27e5df8-281b-4038-bb28-287b73bf5ec0"}'
