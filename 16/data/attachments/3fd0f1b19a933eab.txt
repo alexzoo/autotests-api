@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU2LjU1NTgzOSIsInVzZXJfaWQiOiJjMGU0ZWMzMS0xNjJmLTQzMzMtOTk0Ny1lNmMzZDZmMTc4NDYifQ.ZumVejMqRfohm1bjYM2pgf2e_67r6xnsIj7EtnWmhLM' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Necessary ask office ok science fund.","maxScore":82,"minScore":4,"description":"Piece billion thought admit everyone. Something act road long get put manage. Color card listen dinner write represent.","estimatedTime":"8 weeks","previewFileId":"90d8f3f9-940d-43f3-8eb3-7e559c807fec","createdByUserId":"c0e4ec31-162f-4333-9947-e6c3d6f17846"}'

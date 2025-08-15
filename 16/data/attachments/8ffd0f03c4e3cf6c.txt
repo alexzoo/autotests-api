@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU1LjM4NTEyNCIsInVzZXJfaWQiOiI0OTgwNGViMS03NTk1LTRjY2MtYTAwNi02ZjZjNDM2NmZkYTIifQ.vadR6lFuUPJ1SIhxYDj0SfyI1Q8oWTQaVEYL84hhXNE' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Action foot himself ok.","maxScore":79,"minScore":4,"description":"Once eye second radio dark.\nYard since ready decision personal own form those. Interesting child quickly require yet keep task.\nFood last want suffer. Herself arm letter.","estimatedTime":"8 weeks","previewFileId":"d9c888e6-1241-420a-be55-991e99a22431","createdByUserId":"49804eb1-7595-4ccc-a006-6f6c4366fda2"}'

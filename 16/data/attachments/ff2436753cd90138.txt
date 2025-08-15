@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU3Ljc5MDY2NSIsInVzZXJfaWQiOiIyZTI5MTlkMS00YzBhLTRlMWMtOTAzNC0zMTMwNGMxMmNlZmQifQ.jjwpmExUNW8YHkBDLDUnsaZ5CjWZ8CxrdEjv3IiIBYE' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Impact kid administration miss them receive.","maxScore":97,"minScore":1,"description":"It writer candidate two business summer else. Yes western son give some. Feeling support window that stand let history front.","estimatedTime":"9 weeks","previewFileId":"b26ea6c2-a73a-476f-b3e8-046b1b2b7125","createdByUserId":"2e2919d1-4c0a-4e1c-9034-31304c12cefd"}'

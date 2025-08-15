@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/de3bd361-bff6-4c5d-8a60-6d432f73b802' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU3LjIwNTExMCIsInVzZXJfaWQiOiIzZDU5NGZiMS02MmVkLTQ4ZTgtODE5NC0wYjUyYzhlOTg3NzIifQ.53z2Kt0hVDlvdsCs5BC92EfX8G4rD3bhturajljcjio' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eat another able view assume.","maxScore":61,"minScore":8,"orderIndex":47,"description":"Professor wear various general whether because. Firm concern information idea take his go.\nProduce continue production enter. Common child perhaps. High generation community describe later into.","estimatedTime":"6 weeks"}'

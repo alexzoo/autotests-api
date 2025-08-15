@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU0Ljc5MzIxMyIsInVzZXJfaWQiOiJlN2FhMzYxYy1hMWI3LTRjYzQtOTg1ZC1kOTE4ODFmZjE0ZjcifQ.u2S-3A7B-_rreUuF8UgPHnhTJmhxnpx5wJ2n7loJTXg' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Work cultural then party assume happen.","maxScore":100,"minScore":4,"description":"While class last head radio. Left company adult lawyer. Fine affect minute beat list wear their.","estimatedTime":"3 weeks","previewFileId":"73eced4a-4ac7-4e7d-be57-d0fe7cd3b39f","createdByUserId":"e7aa361c-a1b7-4cc4-985d-d91881ff14f7"}'

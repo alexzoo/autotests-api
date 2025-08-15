@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU5LjA0NTYzOCIsInVzZXJfaWQiOiJkOTVmNzhiNy1hMzQzLTQ2NGMtYjZlMy1mNmQ3MjliNGQyMGUifQ.osun_h4wSHAwsDG68A6ZQjmbWK_SOZ9UcG9ArSms2KQ' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular economy company.","maxScore":90,"minScore":28,"description":"Value impact civil still. Myself red soldier return trip you line.\nIn somebody fine. Show sound blood cultural low find tonight.","estimatedTime":"6 weeks","previewFileId":"9be90d4b-8136-4190-8694-c09fe86a2bf2","createdByUserId":"d95f78b7-a343-464c-b6e3-f6d729b4d20e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU3LjIwNTExMCIsInVzZXJfaWQiOiIzZDU5NGZiMS02MmVkLTQ4ZTgtODE5NC0wYjUyYzhlOTg3NzIifQ.53z2Kt0hVDlvdsCs5BC92EfX8G4rD3bhturajljcjio' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Next six thousand ago board.","maxScore":55,"minScore":14,"description":"Share economy great everything soon have. Level yes sense four.\nPurpose lose expect can friend. Less often easy speech why.","estimatedTime":"1 weeks","previewFileId":"a04eb251-e881-4a3a-b0cc-b9d89163c459","createdByUserId":"3d594fb1-62ed-48e8-8194-0b52c8e98772"}'

@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:51 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:95 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Action foot himself ok.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 79
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Once eye second radio dark.
+Yard since ready decision personal own form those. Interesting child quickly require yet keep task.
+Food last want suffer. Herself arm letter.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to d9c888e6-1241-420a-be55-991e99a22431
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 49804eb1-7595-4ccc-a006-6f6c4366fda2
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

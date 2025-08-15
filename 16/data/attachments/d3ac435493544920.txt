@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/ca43332e-4cb1-41f2-9215-72f3b22b5e89' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA4LTE1VDEwOjQwOjU1Ljk3MTkyNyIsInVzZXJfaWQiOiI4MDIyYWMxNi1mYjJhLTRiZTAtYjljNS1hZjJiY2Q2MTZmOTgifQ.1Hzasoi-T4Mcz-qyoxHlR6ysmi_vL13nLcBvJipcaqg' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Performance miss matter perhaps for.","maxScore":68,"minScore":6,"description":"Improve health entire development of result. That money admit shake reduce describe within voice. Tax describe fund instead.\nNational dark also word voice pattern. Its business particular evening.","estimatedTime":"2 weeks"}'
